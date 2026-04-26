@@ -68,6 +68,7 @@ console.log(JSON.stringify(data, null, 2));
 - Texto direto, sem HTML
 - Delay mínimo 1000ms entre mensagens para evitar bloqueio
 - Confirmar envio mostrando o status da resposta
+- **Instância é case-sensitive** — use `EVOLUTION_INSTANCE` exatamente como no .env, sem `.toLowerCase()` ou `.toUpperCase()`
 
 ---
 
