@@ -114,6 +114,37 @@ Helper em [.claude/skills/google-calendar/calendar-api.sh](calendar-api.sh) que:
 
 Horários: ISO 8601 com timezone (`-03:00`)
 
+## Scripts de criação em massa
+
+Scripts disponíveis para recriar eventos de rituais:
+
+**Pré-vendas (SDR):**
+```bash
+bash .claude/skills/google-calendar/create-pre-vendas-events.sh
+```
+- Daily SDR Agência
+- Weekly Comercial Agência
+- Review de Ligações Gravadas
+- Treinamento SPICED / Objeções / P3
+- Kickoff Mensal SDR Agência
+
+**Vendas (Closers):**
+```bash
+bash .claude/skills/google-calendar/create-vendas-events.sh
+```
+- Daily Closers Agência
+- Review de Apresentação ER Gravada
+- Role-play de Apresentação / Objeções
+- Kickoff Mensal Closers Agência
+
+## Calendários existentes (Grupo Rugido)
+
+- `c_9a3433...` — Agência - Pré-vendas (SDR) ✓ configurado
+- `c_43df30...` — Agência - Vendas (Closers) ✓ configurado
+- `c_5a2361...` — CALENDÁRIO FULL SALES SYSTEM
+- `klebson@rugido.com`
+- `aquila@gruporugido.com`
+
 ## Referência API
 
 - [Overview](https://developers.google.com/workspace/calendar/api/guides/overview)

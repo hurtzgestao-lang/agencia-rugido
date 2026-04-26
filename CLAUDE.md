@@ -51,7 +51,11 @@ Direto, breve, conciso. Português BR sempre. Confirmações com uma palavra ("S
 - Supabase (dados)
 - Airbyte (dados)
 - Google Sheets
-- Google Calendar (10 calendários: 2 transversais, 4 da Agência, 4 das demais unidades)
+- Google Calendar (10+ calendários: 2 transversais, 4 da Agência, 4 das demais unidades)
+
+**Scripts de calendário disponíveis** (`.claude/skills/google-calendar/`):
+- `create-pre-vendas-events.sh` — Recria eventos do calendário de Pré-vendas (SDR)
+- `create-vendas-events.sh` — Recria eventos do calendário de Vendas (Closers)
 
 ---
 
