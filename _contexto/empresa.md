@@ -6,7 +6,11 @@
 **Perfil:** empresa
 **Atende clientes:** ambos (interno e externos)
 **Equipe:** sim — reporta ao CEO Lucas Felix, Aquila e Lucas (Closers), Matuta (revisor externo). Time comercial: SDRs (Diego, Ricardo, Tailândia, Abigail, Tamires, Leo), Closers, operacional (Micaelas). Klebson é gestor responsável por estruturar todos os departamentos da empresa.
-**Ferramentas:** Kommo (CRM), Gamma (apresentações), 3CPlus (VoIP), N8N (automação), Supabase, Airbyte, Google Sheets, Google Calendar (10 calendários)
+**Ferramentas:** Kommo (CRM), Gamma (apresentações), 3CPlus (VoIP), N8N (automação), Supabase, Airbyte, Google Sheets, Google Calendar (10+ calendários)
+
+**Calendários Google Calendar configurados:**
+- Agência - Pré-vendas (SDR): Daily SDR, Weekly Comercial, Review de Ligações, Treinamento SPICED/Objeções/P3, Kickoff Mensal
+- Agência - Vendas (Closers): Daily Closers, Review de Apresentação ER, Role-play, Kickoff Mensal
 **Skills Claude Code:** evolution-api (WhatsApp), generate-image (imagens), google-calendar, google-sheets
 **Principais entregas:** Estruturação de departamentos (marketing, comercial, financeiro, RH, operações), estruturação de operações comerciais internas, produção de ativos comerciais externos (apresentações, propostas, pitch), liderança de Closers
 
