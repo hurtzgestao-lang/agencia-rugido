@@ -11,7 +11,7 @@
 **Calendários Google Calendar configurados:**
 - Agência - Pré-vendas (SDR): Daily SDR, Weekly Comercial, Review de Ligações, Treinamento SPICED/Objeções/P3, Kickoff Mensal
 - Agência - Vendas (Closers): Daily Closers, Review de Apresentação ER, Role-play, Kickoff Mensal
-**Skills Claude Code:** evolution-api (WhatsApp), generate-image (imagens), google-calendar, google-sheets
+**Skills Claude Code:** evolution-api (WhatsApp), generate-image (imagens), google-calendar, google-sheets, google-drive (listar, buscar, baixar, exportar, subir, copiar, mover, compartilhar arquivos no Drive)
 **Principais entregas:** Estruturação de departamentos (marketing, comercial, financeiro, RH, operações), estruturação de operações comerciais internas, produção de ativos comerciais externos (apresentações, propostas, pitch), liderança de Closers
 
 ## Estrutura Operacional
