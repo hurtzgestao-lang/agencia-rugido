@@ -271,16 +271,41 @@
 
 ---
 
+### 🤝 Abertura Comercial Conjunta
+
+**Frequência:** Mensal (1ª sexta do mês, 9h–9h30) | **Duração:** 30 min | **Participantes:** Liderança Comercial + Gestor SDR + Líder Closers + Time SDR + Time de Closers
+
+**Objetivo:** Abrir o mês com o motor comercial inteiro na mesma sala. Reforçar que SDR e Closers são um único funil, mostrar resultado consolidado, fazer reconhecimento cruzado e dar foco estratégico antes dos kickoffs táticos individuais.
+
+**Agenda:**
+1. Funil comercial consolidado do mês — leads → MQL → reunião → venda (10 min)
+2. Reconhecimento cruzado — melhor SDR, melhor Closer, melhor parceria SDR↔Closer do mês (10 min)
+3. Foco estratégico do mês para o motor comercial (ICP prioritário, oferta, mensagem) (10 min)
+
+**Regras:**
+- Sem dados individuais sensíveis (bônus, comissão, repreensão) — esses ficam nos kickoffs separados
+- CEO e Liderança aparecem só nessa abertura, não precisam ficar nos kickoffs táticos
+- Reconhecimento cruzado é obrigatório — quebra a guerra "lead ruim vs Closer ruim"
+
+**Checklist:**
+- [ ] Funil consolidado do mês pronto até quinta à noite
+- [ ] Destaques cruzados validados pelos dois líderes (SDR + Closers)
+- [ ] Foco estratégico do mês alinhado na Weekly de Liderança anterior
+
+---
+
 ### 🏆 Kickoff Mensal SDR Agência
 
-**Frequência:** Mensal (1ª sexta do mês) | **Duração:** 60 min | **Participantes:** Gestor SDR + time SDR Agência
+**Frequência:** Mensal (1ª sexta do mês, 9h30–10h30) | **Duração:** 60 min | **Participantes:** Gestor SDR + time SDR Agência
+
+**Pré-requisito:** Acontece logo após a Abertura Comercial Conjunta (9h–9h30).
 
 **Agenda:**
 1. Ranking do mês — agendamentos, shows, vendas geradas (15 min)
-2. Reconhecimento público do destaque (5 min)
+2. Reconhecimento público do destaque interno do time (5 min)
 3. Bônus pagos por SDR (10 min)
 4. Metas individuais do mês novo (20 min)
-5. Foco estratégico do mês (10 min)
+5. Foco tático do mês — objeções, scripts, abordagens (10 min)
 
 ---
 
@@ -346,14 +371,16 @@
 
 ### 🏆 Kickoff Mensal Closers Agência
 
-**Frequência:** Mensal (1ª sexta do mês) | **Duração:** 60 min | **Participantes:** Líder Closers + time de Closers
+**Frequência:** Mensal (1ª sexta do mês, 10h45–11h45) | **Duração:** 60 min | **Participantes:** Líder Closers + time de Closers
+
+**Pré-requisito:** Acontece após a Abertura Comercial Conjunta (9h–9h30) e o Kickoff SDR (9h30–10h30), com 15 min de intervalo.
 
 **Agenda:**
 1. Ranking do mês — vendas, faturamento, ticket médio (15 min)
-2. Reconhecimento do destaque (5 min)
+2. Reconhecimento do destaque interno do time (5 min)
 3. Comissão por Closer (10 min)
 4. Metas individuais do mês novo (20 min)
-5. Foco estratégico do mês (10 min)
+5. Foco tático do mês — objeções, ancoragem, fechamento (10 min)
 
 ---
 
@@ -517,12 +544,13 @@
 | **SDR** | Review de Ligações | Semanal (sexta 16h) | 60 min |
 | **SDR** | Treinamento SPICED/Objeções | Semanal (sexta 17h) | 45 min |
 | **SDR** | Treinamento Pré-Vendas Full Sales (opcional) | Semanal (terça 16h) | — |
-| **SDR** | Kickoff Mensal SDR | 1ª sexta do mês | 60 min |
+| **SDR + Vendas** | 🤝 Abertura Comercial Conjunta | 1ª sexta do mês (9h–9h30) | 30 min |
+| **SDR** | Kickoff Mensal SDR | 1ª sexta do mês (9h30–10h30) | 60 min |
 | **Vendas** | Daily Closers Agência | Diária (8h) | 15 min |
 | **Vendas** | Review de Apresentação ER | Semanal (quinta 18h) | 90 min |
 | **Vendas** | Role-play | Quinzenal (segunda 10h45) | 60 min |
 | **Vendas** | Treinamento Vendas Full Sales (opcional) | Semanal (terça 14h) | — |
-| **Vendas** | Kickoff Mensal Closers | 1ª sexta do mês | 60 min |
+| **Vendas** | Kickoff Mensal Closers | 1ª sexta do mês (10h45–11h45) | 60 min |
 | **Entrega** | Daily Entrega Agência | Diária (9h) | 15 min |
 | **Entrega** | Weekly de Portfólio | Semanal (terça 9h30) | 90 min |
 | **Entrega** | Review de Entregáveis | Semanal (quarta 14h) | 60 min |

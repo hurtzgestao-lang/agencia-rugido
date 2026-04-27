@@ -22,12 +22,15 @@
 - 🏆 Kickoff Mensal SDR Agência
 
 ### 🏆 Vendas (Closers)
-`comercial/vendas/` — 6 rituais do time de vendas B2B
+`comercial/vendas/` — 5 rituais do time de vendas B2B
 - ☀️ Daily Closers Agência
 - 🎥 Review de Apresentação ER Gravada
 - 🎭 Role-play de Apresentação / Objeções
 - 🎓 Treinamento Vendas Full Sales (opcional)
 - 🏆 Kickoff Mensal Closers Agência
+
+### 🤝 Comercial Conjunto (SDR + Vendas)
+- 🤝 Abertura Comercial Conjunta — 1ª sexta do mês (9h–9h30) — abre os kickoffs táticos de SDR e Closers
 
 ### 🛠️ Entrega / Sucesso do Cliente
 `entrega/` — 7 rituais do time de execução e retenção
@@ -54,7 +57,8 @@
 
 - **Marketing:** 3 rituais
 - **Pré-vendas:** 6 rituais
-- **Vendas:** 6 rituais
+- **Vendas:** 5 rituais
+- **Comercial Conjunto:** 1 ritual
 - **Entrega:** 7 rituais
 - **Liderança:** 3 rituais
 - **Rituais Gerais:** 2 rituais
