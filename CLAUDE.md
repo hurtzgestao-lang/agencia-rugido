@@ -94,6 +94,7 @@ Não perguntar pra tarefas pontuais ou perguntas simples. Só quando o padrão d
 - `generate-image` — gera imagens usando OpenRouter com modelo GPT-5 Image
 - `google-calendar` — gerencia Google Calendar via API v3 REST usando credenciais do .env
 - `google-sheets` — interage com Google Sheets API usando credenciais do .env (ler, escrever, atualizar)
+- `google-drive` — controla Google Drive via API v3 REST (lista, busca, baixa, exporta, sobe, copia, move, compartilha)
 
 ---
 
