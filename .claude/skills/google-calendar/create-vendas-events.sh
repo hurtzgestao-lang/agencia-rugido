@@ -47,15 +47,15 @@ curl -s -X POST "https://www.googleapis.com/calendar/v3/calendars/$CALENDAR_ID/e
     "colorId": "3"
   }' | jq -r '"✓ Role-play: " + .summary + " (" + .id + ")"'
 
-# Kickoff Mensal - 1ª sexta 16h, 60min
+# Kickoff Mensal - 1ª sexta 10h45-11h45, 60min (após Abertura Conjunta + Kickoff SDR)
 curl -s -X POST "https://www.googleapis.com/calendar/v3/calendars/$CALENDAR_ID/events" \
   -H "Authorization: Bearer $TOKEN" \
   -H "Content-Type: application/json" \
   -d '{
     "summary": "Kickoff Mensal Closers Agência",
-    "description": "Fechar mês anterior, reconhecer destaques, apresentar comissões e alinhar metas individuais para novo mês.\n\nAgenda:\n1. Ranking do mês — vendas, faturamento, ticket médio (15 min)\n2. Reconhecimento do destaque (5 min)\n3. Comissão por Closer (10 min)\n4. Metas individuais do mês novo (20 min)\n5. Foco estratégico do mês (10 min)",
-    "start": {"dateTime": "2026-05-02T16:00:00-03:00", "timeZone": "America/Sao_Paulo"},
-    "end": {"dateTime": "2026-05-02T17:00:00-03:00", "timeZone": "America/Sao_Paulo"},
+    "description": "Fechar mês anterior, reconhecer destaques, apresentar comissões e alinhar metas individuais para novo mês.\n\nPré-requisito: Acontece após Abertura Comercial Conjunta (9h–9h30) e Kickoff SDR (9h30–10h30), com 15 min de intervalo.\n\nAgenda:\n1. Ranking do mês — vendas, faturamento, ticket médio (15 min)\n2. Reconhecimento do destaque interno do time (5 min)\n3. Comissão por Closer (10 min)\n4. Metas individuais do mês novo (20 min)\n5. Foco tático do mês — objeções, ancoragem, fechamento (10 min)",
+    "start": {"dateTime": "2026-05-01T10:45:00-03:00", "timeZone": "America/Sao_Paulo"},
+    "end": {"dateTime": "2026-05-01T11:45:00-03:00", "timeZone": "America/Sao_Paulo"},
     "recurrence": ["RRULE:FREQ=MONTHLY;BYSETPOS=1;BYDAY=FR"],
     "colorId": "11"
   }' | jq -r '"✓ Kickoff Mensal: " + .summary + " (" + .id + ")"'
