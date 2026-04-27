@@ -34,31 +34,18 @@ curl -s -X POST "https://www.googleapis.com/calendar/v3/calendars/$CALENDAR_ID/e
     "colorId": "9"
   }' | jq -r '"✓ Weekly Comercial: " + .summary + " (" + .id + ")"'
 
-# Review de Ligações Gravadas - Sexta 16h, 60min
+# Review de Ligações Gravadas - Sexta 17h, 60min
 curl -s -X POST "https://www.googleapis.com/calendar/v3/calendars/$CALENDAR_ID/events" \
   -H "Authorization: Bearer $TOKEN" \
   -H "Content-Type: application/json" \
   -d '{
     "summary": "Review de Ligações Gravadas",
     "description": "Escutar ligações reais, dar feedback coletivo e espalhar boas práticas.\n\nAgenda:\n1. 2-3 ligações pré-selecionadas (1 boa, 1 ruim, 1 média) (2 min)\n2. Escuta e feedback de cada ligação (45 min)\n3. 3 aprendizados pra aplicar (10 min)\n4. Compromisso individual de ajuste (3 min)\n\nRegras: Feedback constrói, nunca humilha. Começar pelos pontos fortes.\n\nConvidado recorrente: Líder Closers Agência (1x por mês).",
-    "start": {"dateTime": "2026-05-01T16:00:00-03:00", "timeZone": "America/Sao_Paulo"},
-    "end": {"dateTime": "2026-05-01T17:00:00-03:00", "timeZone": "America/Sao_Paulo"},
+    "start": {"dateTime": "2026-05-01T17:00:00-03:00", "timeZone": "America/Sao_Paulo"},
+    "end": {"dateTime": "2026-05-01T18:00:00-03:00", "timeZone": "America/Sao_Paulo"},
     "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=FR"],
     "colorId": "6"
   }' | jq -r '"✓ Review Ligações: " + .summary + " (" + .id + ")"'
-
-# Treinamento SPICED / Objeções / P3 - Sexta 17h, 45min
-curl -s -X POST "https://www.googleapis.com/calendar/v3/calendars/$CALENDAR_ID/events" \
-  -H "Authorization: Bearer $TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "summary": "Treinamento SPICED / Objeções / P3",
-    "description": "Capacitação interna do time de SDR com rodízio de temas.\n\nRodízio por semana do mês:\n- Semana 1 — SPICED: aprofundamento em 1 letra\n- Semana 2 — Reversão de objeções: 3 objeções recorrentes\n- Semana 3 — Técnica P3 (Fala-Fecha): role-play de fechamento\n- Semana 4 — Cases reais: análise de venda ganha",
-    "start": {"dateTime": "2026-05-01T17:00:00-03:00", "timeZone": "America/Sao_Paulo"},
-    "end": {"dateTime": "2026-05-01T17:45:00-03:00", "timeZone": "America/Sao_Paulo"},
-    "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=FR"],
-    "colorId": "3"
-  }' | jq -r '"✓ Treinamento SPICED: " + .summary + " (" + .id + ")"'
 
 # Treinamento Pré-Vendas Full Sales (opcional) - Terça 16h
 curl -s -X POST "https://www.googleapis.com/calendar/v3/calendars/$CALENDAR_ID/events" \

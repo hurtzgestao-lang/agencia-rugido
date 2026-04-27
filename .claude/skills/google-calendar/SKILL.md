@@ -124,8 +124,7 @@ bash .claude/skills/google-calendar/create-pre-vendas-events.sh
 ```
 - Daily SDR Agência
 - Weekly Comercial Agência
-- Review de Ligações Gravadas
-- Treinamento SPICED / Objeções / P3
+- Review de Ligações Gravadas (Sexta 17h)
 - Treinamento Pré-Vendas Full Sales (opcional)
 - 🤝 Abertura Comercial Conjunta (ritual conjunto SDR + Closers — adicionar Closers como convidados manualmente)
 - Kickoff Mensal SDR Agência (9h30–10h30)
