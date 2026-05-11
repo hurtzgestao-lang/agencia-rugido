@@ -95,6 +95,7 @@ Não perguntar pra tarefas pontuais ou perguntas simples. Só quando o padrão d
 - `google-calendar` — gerencia Google Calendar via API v3 REST usando credenciais do .env
 - `google-sheets` — interage com Google Sheets API usando credenciais do .env (ler, escrever, atualizar)
 - `google-drive` — controla Google Drive via API v3 REST (lista, busca, baixa, exporta, sobe, copia, move, compartilha)
+- `fathom` — acessa reuniões gravadas no Fathom via API REST (lista reuniões, lê transcrições e resumos). Requer `FATHOM_API_KEY` no .env.
 
 ---
 
