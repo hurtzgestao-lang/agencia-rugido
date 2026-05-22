@@ -96,6 +96,7 @@ Não perguntar pra tarefas pontuais ou perguntas simples. Só quando o padrão d
 - `google-sheets` — interage com Google Sheets API usando credenciais do .env (ler, escrever, atualizar)
 - `google-drive` — controla Google Drive via API v3 REST (lista, busca, baixa, exporta, sobe, copia, move, compartilha)
 - `fathom` — acessa reuniões gravadas no Fathom via API REST (lista reuniões, lê transcrições e resumos). Requer `FATHOM_API_KEY` no .env.
+- `meta-ads-insights` — extrai dados de tráfego do Meta Ads (gasto, leads, CPL, vídeo, pixel) por dia × anúncio. Salva em Google Sheets e JSON local. Requer `META_PAGE_TOKEN` e `META_ADS_RUGIDO_01` no .env.
 
 ---
 
