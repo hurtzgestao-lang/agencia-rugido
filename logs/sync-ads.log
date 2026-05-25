@@ -1,0 +1,13 @@
+[2026-05-25 19:19:36] ERRO:  não encontrada no .env. Crie a planilha do mês com --new-sheet primeiro.
+[2026-05-25 19:19:44] Iniciando sync — conta: META_ADS_SHEET_MAIO_2026 — planilha: 15vNsrTUIrF2E54U6Fuvqp8UCv_jVl_wGRaVfbXkCZgQ — desde: 2026-05-01
+Buscando insights — 2026-05-01 → hoje — 1 conta(s)
+  Escola - Editora / account: 25 linha(s)
+  Escola - Editora / campaign: 189 linha(s)
+  Escola - Editora / adset: 500 linha(s)
+Erro: Insights act_653547106216766/ad: Service temporarily unavailable
+[2026-05-25 19:21:04] ERRO no sync (exit code 1). Verifique o log acima.
+[2026-05-25 19:21:25] Iniciando sync — conta: META_ADS_SHEET_MAIO_2026 — planilha: 15vNsrTUIrF2E54U6Fuvqp8UCv_jVl_wGRaVfbXkCZgQ — desde: 2026-05-01
+Buscando insights — 2026-05-01 → hoje — 1 conta(s)
+  Escola - Editora / account: 25 linha(s)
+  Escola - Editora / campaign: 189 linha(s)
+  Escola - Editora / adset: 500 linha(s)
