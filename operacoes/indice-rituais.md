@@ -13,10 +13,11 @@
 - 🗺️ Planejamento de Campanhas
 
 ### 📞 Pré-vendas (SDR)
-`comercial/pre-vendas/` — 5 rituais do time de qualificação B2B
+`comercial/pre-vendas/` — 6 rituais do time de qualificação B2B
 - ☀️ Daily SDR Agência
 - 📊 Weekly Comercial Agência
 - 🎧 Review de Ligações Gravadas
+- 🎓 Treinamento SPICED / Objeções / P3
 - 🎓 Treinamento Pré-Vendas Full Sales (opcional)
 - 🏆 Kickoff Mensal SDR Agência
 
@@ -55,11 +56,11 @@
 ## Totais
 
 - **Marketing:** 3 rituais
-- **Pré-vendas:** 5 rituais
+- **Pré-vendas:** 6 rituais
 - **Vendas:** 5 rituais
 - **Comercial Conjunto:** 1 ritual
 - **Entrega:** 7 rituais
 - **Liderança:** 3 rituais
 - **Rituais Gerais:** 2 rituais
 
-**Total:** 26 rituais documentados e individualizados
+**Total:** 27 rituais documentados e individualizados

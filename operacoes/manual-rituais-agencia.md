@@ -235,7 +235,7 @@
 
 ### 🎧 Review de Ligações Gravadas
 
-**Frequência:** Semanal (sexta, 17h) | **Duração:** 60 min | **Participantes:** Gestor SDR + time SDR Agência | **Convidado recorrente:** Líder Closers Agência (1x por mês)
+**Frequência:** Semanal (sexta, 16h) | **Duração:** 60 min | **Participantes:** Gestor SDR + time SDR Agência | **Convidado recorrente:** Líder Closers Agência (1x por mês)
 
 **Objetivo:** Escutar ligações reais, dar feedback coletivo e espalhar boas práticas.
 
@@ -246,6 +246,18 @@
 4. Compromisso individual de ajuste (3 min)
 
 **Regras:** Feedback constrói, nunca humilha. Começar pelos pontos fortes.
+
+---
+
+### 🎓 Treinamento SPICED / Objeções / P3
+
+**Frequência:** Semanal (sexta, 17h) | **Duração:** 45 min | **Participantes:** Gestor SDR + time SDR Agência
+
+**Rodízio de temas por semana do mês:**
+- **Semana 1 — SPICED:** aprofundamento em 1 letra
+- **Semana 2 — Reversão de objeções:** 3 objeções recorrentes
+- **Semana 3 — Técnica P3 (Fala-Fecha):** role-play de fechamento
+- **Semana 4 — Cases reais:** análise de venda ganha
 
 ---
 
@@ -529,7 +541,8 @@
 | **Marketing** | Planejamento de Campanhas | Mensal | 90 min |
 | **SDR** | Daily SDR Agência | Diária (8h) | 15 min |
 | **SDR** | Weekly Comercial Agência | Semanal (segunda 9h15) | 90 min |
-| **SDR** | Review de Ligações | Semanal (sexta 17h) | 60 min |
+| **SDR** | Review de Ligações | Semanal (sexta 16h) | 60 min |
+| **SDR** | Treinamento SPICED/Objeções | Semanal (sexta 17h) | 45 min |
 | **SDR** | Treinamento Pré-Vendas Full Sales (opcional) | Semanal (terça 16h) | — |
 | **SDR + Vendas** | 🤝 Abertura Comercial Conjunta | 1ª sexta do mês (9h–9h30) | 30 min |
 | **SDR** | Kickoff Mensal SDR | 1ª sexta do mês (9h30–10h30) | 60 min |
