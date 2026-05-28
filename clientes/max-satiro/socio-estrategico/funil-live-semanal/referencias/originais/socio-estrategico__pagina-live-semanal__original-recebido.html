@@ -1,0 +1,1050 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aula gratuita | Sócio Estratégico</title>
+  <meta name="description" content="Aula gratuita com Max Satiro para donos de empresas de serviço que querem crescer com direção e depender menos do dono.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --canvas: #080806;
+      --surface: #12110e;
+      --surface-soft: rgba(18, 17, 14, 0.72);
+      --surface-strong: rgba(8, 8, 6, 0.86);
+      --paper: #efede6;
+      --paper-soft: #e3ded1;
+      --ink: #f8f3e6;
+      --ink-muted: rgba(248, 243, 230, 0.73);
+      --ink-soft: rgba(248, 243, 230, 0.54);
+      --line: rgba(248, 243, 230, 0.14);
+      --line-dark: rgba(18, 17, 14, 0.14);
+      --green: #35c12e;
+      --green-bright: #54df4d;
+      --green-dark: #1f8d1b;
+      --brass: #d0ad5e;
+      --brass-dark: #92733c;
+      --body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --display: "Playfair Display", Georgia, serif;
+      --mono: "DM Mono", "Geist Mono", monospace;
+      --shadow: 0 28px 90px rgba(0, 0, 0, 0.42);
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      overflow-x: hidden;
+      color: var(--ink);
+      background: var(--canvas);
+      font-family: var(--body);
+      text-rendering: optimizeLegibility;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -3;
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, rgba(248, 243, 230, 0.035) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(248, 243, 230, 0.03) 1px, transparent 1px);
+      background-size: 72px 72px;
+      mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), transparent 72%);
+    }
+
+    a {
+      color: inherit;
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    figure,
+    ul {
+      margin: 0;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 50;
+      top: 14px;
+      left: 14px;
+      transform: translateY(-130%);
+      padding: 10px 14px;
+      border-radius: var(--radius);
+      background: var(--paper);
+      color: #11100d;
+      font-weight: 800;
+      text-decoration: none;
+      transition: transform 0.18s ease;
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .topbar {
+      position: absolute;
+      z-index: 5;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: min(1240px, calc(100% - 40px));
+      min-height: 72px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      color: var(--ink-muted);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      color: var(--ink);
+      font-family: var(--mono);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+
+    .brand::before {
+      content: "";
+      width: 12px;
+      height: 12px;
+      border: 2px solid var(--green-bright);
+      border-radius: 50%;
+      box-shadow: 0 0 28px rgba(53, 193, 46, 0.74);
+    }
+
+    .topbar__link {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 18px;
+      border: 1px solid rgba(248, 243, 230, 0.22);
+      border-radius: var(--radius);
+      background: rgba(248, 243, 230, 0.07);
+      color: var(--ink);
+      font-size: 0.88rem;
+      font-weight: 800;
+      text-decoration: none;
+      transition: background 0.18s ease, border-color 0.18s ease;
+    }
+
+    .topbar__link:hover,
+    .topbar__link:focus-visible {
+      border-color: rgba(53, 193, 46, 0.58);
+      background: rgba(53, 193, 46, 0.14);
+      outline: none;
+    }
+
+    .hero {
+      position: relative;
+      isolation: isolate;
+      min-height: calc(100svh - 46px);
+      padding: 104px 20px 26px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: var(--surface);
+    }
+
+    .hero__image {
+      position: absolute;
+      inset: 0;
+      z-index: -3;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 66% center;
+      filter: saturate(1.04) contrast(1.04) brightness(0.76);
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, rgba(8, 8, 6, 0.96) 0%, rgba(8, 8, 6, 0.88) 36%, rgba(8, 8, 6, 0.55) 68%, rgba(8, 8, 6, 0.34) 100%),
+        linear-gradient(180deg, rgba(8, 8, 6, 0.64) 0%, rgba(8, 8, 6, 0.1) 42%, rgba(8, 8, 6, 0.8) 100%);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0;
+      z-index: -1;
+      height: 42%;
+      pointer-events: none;
+      background: linear-gradient(180deg, transparent, var(--canvas));
+    }
+
+    .hero__inner {
+      width: min(1240px, 100%);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(344px, 404px);
+      gap: clamp(26px, 3.5vw, 52px);
+      align-items: end;
+    }
+
+    .hero__copy {
+      max-width: 740px;
+    }
+
+    .eyebrow-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 19px;
+    }
+
+    .eyebrow {
+      min-height: 36px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 12px;
+      border: 1px solid rgba(248, 243, 230, 0.18);
+      border-radius: var(--radius);
+      background: rgba(248, 243, 230, 0.075);
+      color: var(--ink-muted);
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      line-height: 1.25;
+      text-transform: uppercase;
+    }
+
+    .eyebrow--green {
+      border-color: rgba(53, 193, 46, 0.42);
+      background: rgba(53, 193, 46, 0.12);
+      color: #dff9dc;
+    }
+
+    .title {
+      max-width: 760px;
+      color: var(--ink);
+      font-family: var(--display);
+      font-size: clamp(3.82rem, 5.28vw, 5.9rem);
+      font-weight: 800;
+      letter-spacing: 0;
+      line-height: 0.91;
+    }
+
+    .title span,
+    .title em {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .title em {
+      color: var(--brass);
+      font-style: italic;
+      text-shadow: 0 0 38px rgba(208, 173, 94, 0.22);
+    }
+
+    .subhead {
+      max-width: 670px;
+      margin-top: 20px;
+      color: var(--ink-muted);
+      font-size: clamp(1.05rem, 1.45vw, 1.28rem);
+      font-weight: 600;
+      line-height: 1.48;
+    }
+
+    .subhead span {
+      display: block;
+    }
+
+    .proofs {
+      width: min(720px, 100%);
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      border: 1px solid rgba(248, 243, 230, 0.13);
+      background: rgba(248, 243, 230, 0.1);
+    }
+
+    .proofs li {
+      min-height: 96px;
+      padding: 16px;
+      background: rgba(8, 8, 6, 0.54);
+    }
+
+    .proofs li + li {
+      border-left: 1px solid rgba(248, 243, 230, 0.12);
+    }
+
+    .proofs span {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--green-bright);
+      font-family: var(--mono);
+      font-size: 0.66rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      line-height: 1.25;
+      text-transform: uppercase;
+    }
+
+    .proofs strong {
+      display: block;
+      color: rgba(248, 243, 230, 0.86);
+      font-size: 0.88rem;
+      font-weight: 700;
+      line-height: 1.28;
+    }
+
+    .capture {
+      position: relative;
+      z-index: 2;
+      padding: 24px;
+      border: 1px solid rgba(248, 243, 230, 0.15);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(180deg, rgba(248, 243, 230, 0.08), rgba(248, 243, 230, 0.035)),
+        var(--surface-strong);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(20px);
+    }
+
+    .capture::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      border-top: 3px solid var(--green);
+    }
+
+    .capture__top {
+      display: grid;
+      gap: 8px;
+      margin-bottom: 19px;
+    }
+
+    .capture__eyebrow {
+      color: var(--green-bright);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .capture h2 {
+      color: var(--ink);
+      font-size: clamp(1.35rem, 2vw, 1.72rem);
+      font-weight: 800;
+      line-height: 1.08;
+    }
+
+    .capture__note {
+      color: var(--ink-soft);
+      font-size: 0.9rem;
+      font-weight: 600;
+      line-height: 1.42;
+    }
+
+    .form {
+      display: grid;
+      gap: 12px;
+    }
+
+    .field {
+      display: grid;
+      gap: 7px;
+      min-width: 0;
+    }
+
+    .field label {
+      color: var(--ink-soft);
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .field input {
+      width: 100%;
+      min-height: 54px;
+      padding: 0 15px;
+      border: 1px solid rgba(248, 243, 230, 0.14);
+      border-radius: var(--radius);
+      outline: none;
+      background: rgba(248, 243, 230, 0.06);
+      color: var(--ink);
+      font: 700 1rem/1 var(--body);
+      transition: border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .field input::placeholder {
+      color: rgba(248, 243, 230, 0.36);
+    }
+
+    .field input:focus {
+      border-color: rgba(53, 193, 46, 0.68);
+      background: rgba(248, 243, 230, 0.085);
+      box-shadow: 0 0 0 4px rgba(53, 193, 46, 0.11);
+    }
+
+    .cta {
+      min-height: 62px;
+      margin-top: 5px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      padding: 0 18px;
+      border: 0;
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, var(--green-bright) 0%, var(--green) 72%, var(--green-dark) 100%);
+      color: #0e120c;
+      cursor: pointer;
+      font-family: var(--mono);
+      font-size: 0.93rem;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      line-height: 1.15;
+      text-transform: uppercase;
+      box-shadow:
+        0 18px 46px rgba(53, 193, 46, 0.2),
+        inset 0 -3px 0 rgba(0, 0, 0, 0.18);
+      transition: transform 0.18s ease, filter 0.18s ease;
+      touch-action: manipulation;
+    }
+
+    .cta:hover,
+    .cta:focus-visible {
+      filter: brightness(1.04);
+      transform: translateY(-1px);
+      outline: none;
+    }
+
+    .cta svg {
+      width: 20px;
+      height: 20px;
+      flex: 0 0 auto;
+      stroke-width: 2.4;
+    }
+
+    .microcopy {
+      margin-top: 12px;
+      color: var(--ink-soft);
+      font-size: 0.82rem;
+      font-weight: 600;
+      line-height: 1.42;
+      text-align: center;
+    }
+
+    .success {
+      display: none;
+      margin-top: 12px;
+      padding: 13px;
+      border: 1px solid rgba(53, 193, 46, 0.36);
+      border-radius: var(--radius);
+      background: rgba(53, 193, 46, 0.12);
+      color: rgba(248, 243, 230, 0.9);
+      font-size: 0.9rem;
+      font-weight: 700;
+      line-height: 1.42;
+      text-align: center;
+    }
+
+    .success.is-visible {
+      display: block;
+    }
+
+    .section {
+      padding: clamp(58px, 8vw, 104px) 20px;
+    }
+
+    .section__inner {
+      width: min(1180px, 100%);
+      margin: 0 auto;
+    }
+
+    .lesson {
+      background: var(--paper);
+      color: #14120e;
+    }
+
+    .lesson__inner {
+      display: grid;
+      grid-template-columns: 0.72fr 1fr;
+      gap: clamp(28px, 6vw, 74px);
+      align-items: start;
+    }
+
+    .section-label {
+      color: var(--green-dark);
+      font-family: var(--mono);
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .section-title {
+      margin-top: 14px;
+      max-width: 680px;
+      color: inherit;
+      font-family: var(--display);
+      font-size: clamp(2.75rem, 5.2vw, 5.2rem);
+      font-weight: 800;
+      letter-spacing: 0;
+      line-height: 0.94;
+    }
+
+    .lesson__lead {
+      max-width: 640px;
+      color: rgba(20, 18, 14, 0.72);
+      font-size: clamp(1.02rem, 1.35vw, 1.18rem);
+      font-weight: 650;
+      line-height: 1.55;
+    }
+
+    .lesson__grid {
+      margin-top: 25px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .lesson__item {
+      min-height: 190px;
+      padding: 20px;
+      border: 1px solid rgba(20, 18, 14, 0.12);
+      border-radius: var(--radius);
+      background: #f8f5ec;
+      box-shadow: 0 18px 42px rgba(20, 18, 14, 0.08);
+    }
+
+    .lesson__item span {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      margin-bottom: 20px;
+      border-radius: 50%;
+      background: #14120e;
+      color: var(--green-bright);
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    .lesson__item h3 {
+      color: #14120e;
+      font-size: 1rem;
+      font-weight: 800;
+      line-height: 1.18;
+    }
+
+    .lesson__item p {
+      margin-top: 10px;
+      color: rgba(20, 18, 14, 0.68);
+      font-size: 0.94rem;
+      font-weight: 600;
+      line-height: 1.48;
+    }
+
+    .bio {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, #080806 0%, #11100d 100%);
+      color: var(--ink);
+    }
+
+    .bio__inner {
+      display: grid;
+      grid-template-columns: minmax(280px, 0.7fr) minmax(0, 1fr);
+      gap: clamp(34px, 6vw, 82px);
+      align-items: start;
+    }
+
+    .bio .section-label {
+      color: var(--green-bright);
+    }
+
+    .bio__text {
+      display: grid;
+      gap: 22px;
+      color: var(--ink-muted);
+      font-size: clamp(1.02rem, 1.24vw, 1.18rem);
+      font-weight: 600;
+      line-height: 1.58;
+    }
+
+    .bio__text strong {
+      color: var(--ink);
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .metric {
+      min-height: 142px;
+      padding: 20px;
+      border: 1px solid rgba(248, 243, 230, 0.12);
+      border-radius: var(--radius);
+      background: rgba(248, 243, 230, 0.055);
+    }
+
+    .metric span {
+      display: block;
+      margin-bottom: 14px;
+      color: var(--brass);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      line-height: 1.28;
+      text-transform: uppercase;
+    }
+
+    .metric strong {
+      display: block;
+      color: rgba(248, 243, 230, 0.86);
+      font-size: 0.95rem;
+      line-height: 1.32;
+    }
+
+    .final-cta {
+      padding: 34px 20px 40px;
+      background: var(--paper);
+      color: #14120e;
+    }
+
+    .final-cta__inner {
+      width: min(1180px, 100%);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding-top: 28px;
+      border-top: 1px solid rgba(20, 18, 14, 0.14);
+    }
+
+    .final-cta p {
+      max-width: 640px;
+      color: rgba(20, 18, 14, 0.72);
+      font-size: 1rem;
+      font-weight: 650;
+      line-height: 1.5;
+    }
+
+    .final-cta a {
+      min-height: 52px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 20px;
+      border-radius: var(--radius);
+      background: #14120e;
+      color: var(--ink);
+      font-family: var(--mono);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 1020px) {
+      .hero {
+        padding-top: 92px;
+        align-items: start;
+      }
+
+      .hero__inner,
+      .lesson__inner,
+      .bio__inner {
+        grid-template-columns: 1fr;
+      }
+
+      .hero__copy {
+        max-width: 760px;
+      }
+
+      .capture {
+        width: min(100%, 620px);
+      }
+
+      .proofs {
+        display: none;
+      }
+
+      .lesson__grid,
+      .metrics {
+        grid-template-columns: 1fr;
+      }
+
+      .lesson__item,
+      .metric {
+        min-height: auto;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .topbar {
+        position: relative;
+        width: calc(100% - 32px);
+        min-height: 58px;
+      }
+
+      .topbar__link {
+        display: none;
+      }
+
+      .hero {
+        min-height: auto;
+        padding: 14px 16px 32px;
+      }
+
+      .hero__image {
+        object-position: 70% top;
+        opacity: 0.62;
+      }
+
+      .hero::before {
+        background:
+          linear-gradient(180deg, rgba(8, 8, 6, 0.96) 0%, rgba(8, 8, 6, 0.78) 44%, rgba(8, 8, 6, 0.94) 100%),
+          linear-gradient(90deg, rgba(8, 8, 6, 0.96), rgba(8, 8, 6, 0.5));
+      }
+
+      .hero__inner {
+        gap: 20px;
+      }
+
+      .eyebrow-row {
+        gap: 8px;
+        margin-bottom: 15px;
+      }
+
+      .eyebrow {
+        min-height: 33px;
+        padding: 7px 9px;
+        font-size: 0.62rem;
+        letter-spacing: 0.07em;
+      }
+
+      .eyebrow:nth-child(3) {
+        display: none;
+      }
+
+      .title {
+        width: min(100%, 360px);
+        font-size: clamp(2.28rem, 9.7vw, 2.98rem);
+        line-height: 0.94;
+      }
+
+      .subhead {
+        width: min(100%, 360px);
+        margin-top: 13px;
+        font-size: 0.92rem;
+        line-height: 1.42;
+      }
+
+      .subhead span {
+        display: inline;
+      }
+
+      .proofs {
+        margin-top: 18px;
+        grid-template-columns: 1fr;
+      }
+
+      .proofs li {
+        min-height: auto;
+        padding: 13px;
+      }
+
+      .proofs li + li {
+        border-top: 1px solid rgba(248, 243, 230, 0.12);
+        border-left: 0;
+      }
+
+      .capture {
+        padding: 17px;
+      }
+
+      .capture__top {
+        margin-bottom: 14px;
+      }
+
+      .capture h2 {
+        font-size: 1.22rem;
+      }
+
+      .capture__note {
+        display: none;
+      }
+
+      .field label {
+        font-size: 0.66rem;
+      }
+
+      .field input {
+        min-height: 48px;
+        font-size: 0.96rem;
+      }
+
+      .cta {
+        min-height: 56px;
+        font-size: 0.8rem;
+        letter-spacing: 0.05em;
+      }
+
+      .section {
+        padding: 50px 16px;
+      }
+
+      .section-title {
+        font-size: clamp(2.45rem, 12vw, 3.4rem);
+      }
+
+      .lesson__grid {
+        margin-top: 20px;
+      }
+
+      .final-cta__inner {
+        display: grid;
+      }
+
+      .final-cta a {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .title {
+        width: min(100%, 342px);
+        font-size: clamp(2.22rem, 9.45vw, 2.48rem);
+      }
+
+      .proofs strong {
+        font-size: 0.84rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.001ms !important;
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#inscricao">Ir para inscrição</a>
+
+  <header class="topbar" aria-label="Topo da página">
+    <div class="brand">Sócio Estratégico</div>
+    <a class="topbar__link" href="#inscricao">Participar ao vivo</a>
+  </header>
+
+  <main>
+    <section class="hero" id="topo">
+      <img class="hero__image" src="assets/max-satiro-atual.jfif" alt="Max Satiro em um evento com iluminação verde.">
+
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <div class="eyebrow-row" aria-label="Informações da aula">
+            <div class="eyebrow eyebrow--green">Aula gratuita ao vivo</div>
+            <div class="eyebrow">Segunda-feira às 19h</div>
+            <div class="eyebrow">Empresas de serviço</div>
+          </div>
+
+          <h1 class="title">
+            <span>Empresa crescendo</span>
+            <span>com direção,</span>
+            <span>dependendo menos</span>
+            <em>de você.</em>
+          </h1>
+
+          <p class="subhead">
+            <span>Uma aula prática para donos de empresas de serviço que já vendem,</span>
+            <span>mas precisam alinhar marketing, vendas e gestão para sustentar</span>
+            <span>o próximo salto sem depender de improviso.</span>
+          </p>
+
+          <ul class="proofs" aria-label="Credenciais de Max Satiro">
+            <li>
+              <span>R$300k -> R$40M/mês</span>
+              <strong>Ciclo de escala vivido por dentro da V4.</strong>
+            </li>
+            <li>
+              <span>SDR -> CMO -> sócio</span>
+              <strong>Trajetória construída em operação real.</strong>
+            </li>
+            <li>
+              <span>Marketing + vendas</span>
+              <strong>A visão integrada que falta em muita empresa.</strong>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="capture" id="inscricao" aria-label="Formulário de inscrição">
+          <div class="capture__top">
+            <div class="capture__eyebrow">Reserve sua vaga</div>
+            <h2>Receba o link da aula no WhatsApp.</h2>
+            <p class="capture__note">Acesso gratuito enviado antes da aula ao vivo.</p>
+          </div>
+
+          <form class="form" id="captureForm">
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input id="nome" name="nome" type="text" autocomplete="name" placeholder="Seu nome completo" required>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="seu@email.com" required>
+            </div>
+            <div class="field">
+              <label for="whatsapp">WhatsApp</label>
+              <input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="(00) 00000-0000" required>
+            </div>
+            <button class="cta" type="submit">
+              Participar gratuitamente
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
+                <path d="M5 12h14"></path>
+                <path d="m13 6 6 6-6 6"></path>
+              </svg>
+            </button>
+          </form>
+
+          <p class="microcopy">Sem grupo aberto. Você recebe somente os avisos da aula.</p>
+          <div class="success" id="successMessage" role="status" aria-live="polite">Inscrição recebida. O próximo passo é receber o link da aula e os lembretes no seu WhatsApp.</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section lesson" id="conteudo">
+      <div class="section__inner lesson__inner">
+        <div>
+          <div class="section-label">O que a aula organiza</div>
+          <h2 class="section-title">Crescer sem virar refém da própria operação.</h2>
+        </div>
+
+        <div>
+          <p class="lesson__lead">
+            A aula conecta as três partes que normalmente andam separadas em empresas de serviço: direção estratégica, geração de demanda e rotina comercial. A ideia é sair com clareza do que precisa ser ajustado antes de tentar acelerar.
+          </p>
+
+          <div class="lesson__grid">
+            <article class="lesson__item">
+              <span>01</span>
+              <h3>Direção para decidir o que priorizar</h3>
+              <p>Como separar problema de oferta, problema de demanda e problema de gestão antes de mexer no time.</p>
+            </article>
+
+            <article class="lesson__item">
+              <span>02</span>
+              <h3>Marketing e vendas no mesmo raciocínio</h3>
+              <p>Como parar de tratar tráfego, conteúdo, SDR e closer como peças soltas da operação.</p>
+            </article>
+
+            <article class="lesson__item">
+              <span>03</span>
+              <h3>Rotina para depender menos do dono</h3>
+              <p>Como criar cadência de acompanhamento sem transformar crescimento em microgestão eterna.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bio" id="quem-e-max">
+      <div class="section__inner bio__inner">
+        <div>
+          <div class="section-label">Quem conduz a aula</div>
+          <h2 class="section-title">Max Satiro</h2>
+        </div>
+
+        <div class="bio__text">
+          <p>
+            Ex-CMO e ex-sócio da V4. Entrou como SDR, liderou marketing e comercial, tornou-se sócio e participou por dentro de um dos ciclos de crescimento mais conhecidos do mercado.
+          </p>
+          <p>
+            Hoje, à frente da <strong>Sócio Estratégico</strong>, ajuda empresários de serviço a organizar direção, oferta, demanda e rotina comercial para que a empresa cresça com menos improviso.
+          </p>
+
+          <div class="metrics" aria-label="Resumo da trajetória de Max Satiro">
+            <div class="metric">
+              <span>R$300k -> R$40M/mês</span>
+              <strong>Participou por dentro de um ciclo agressivo de escala.</strong>
+            </div>
+            <div class="metric">
+              <span>SDR -> CMO -> sócio</span>
+              <strong>Viveu a operação em diferentes níveis de responsabilidade.</strong>
+            </div>
+            <div class="metric">
+              <span>Serviços B2B</span>
+              <strong>Foco em empresas que vendem expertise, projeto, consultoria ou recorrência.</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta" aria-label="Chamada final para inscrição">
+      <div class="final-cta__inner">
+        <p>Se a empresa já vende, mas o crescimento ainda depende demais do dono, esta aula é o próximo ponto de organização.</p>
+        <a href="#inscricao">Reservar vaga gratuita</a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const form = document.querySelector("#captureForm");
+    const successMessage = document.querySelector("#successMessage");
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      successMessage.classList.add("is-visible");
+    });
+  </script>
+</body>
+</html>

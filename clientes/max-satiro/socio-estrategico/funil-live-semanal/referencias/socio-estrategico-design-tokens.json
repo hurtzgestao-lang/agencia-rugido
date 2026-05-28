@@ -1,0 +1,232 @@
+{
+  "name": "Sócio Estratégico Design System",
+  "version": "1.1.0",
+  "description": "Design system extraído das apresentações e artifact de identidade visual do Sócio Estratégico",
+  "lastUpdated": "2026-05-27",
+
+  "primitives": {
+    "colors": {
+      "bg": {
+        "dark": "#0E1A12",
+        "base": "#142219",
+        "elevated": "#1A2C20",
+        "card": "#2A3D2E",
+        "goldBg": "#1E2A1A"
+      },
+      "cream": {
+        "base": "#F0ECE2",
+        "beige": "#B8B09A",
+        "paper": "#F0ECE2"
+      },
+      "ink": {
+        "base": "#0E1A12",
+        "light": "#142219",
+        "muted": "#6F6A5C",
+        "faint": "#B8B09A"
+      },
+      "accent": {
+        "green": "#2A3D2E",
+        "red": "#fa4863",
+        "gold": "#DBBE7A",
+        "goldLight": "#DBBE7A",
+        "goldPale": "#F0ECE2",
+        "goldDeep": "#A89055"
+      },
+      "phases": {
+        "survival": "#6b4f2a",
+        "talents": "#2a4f6b",
+        "organization": "#2a6b4f",
+        "excellence": "#4a3570"
+      }
+    },
+    "opacity": {
+      "70": 0.70,
+      "50": 0.50,
+      "30": 0.30,
+      "12": 0.12,
+      "08": 0.08,
+      "04": 0.04
+    }
+  },
+
+  "semantic": {
+    "backgrounds": {
+      "page": "var(--primitive-bg-dark)",
+      "shell": "var(--primitive-bg-base)",
+      "card": "var(--primitive-bg-elevated)",
+      "elevated": "var(--primitive-bg-card)",
+      "overlay": "rgba(14, 26, 18, 0.88)"
+    },
+    "text": {
+      "primary": "var(--primitive-cream)",
+      "secondary": "rgba(240, 236, 226, 0.70)",
+      "muted": "rgba(240, 236, 226, 0.50)",
+      "faint": "rgba(240, 236, 226, 0.30)",
+      "dark": "rgba(14, 26, 18, 1)",
+      "darkSecondary": "rgba(14, 26, 18, 0.72)",
+      "darkMuted": "rgba(14, 26, 18, 0.58)"
+    },
+    "accents": {
+      "primary": "var(--primitive-gold)",
+      "secondary": "var(--primitive-beige)",
+      "tertiary": "var(--primitive-gold-light)"
+    },
+    "status": {
+      "success": "var(--primitive-gold)",
+      "error": "var(--primitive-red)",
+      "warning": "var(--primitive-gold)"
+    },
+    "borders": {
+      "default": "rgba(219, 190, 122, 0.12)",
+      "subtle": "rgba(219, 190, 122, 0.06)",
+      "strong": "rgba(219, 190, 122, 0.22)"
+    }
+  },
+
+  "components": {
+    "pill": {
+      "bg": "rgba(239, 237, 234, 0.04)",
+      "border": "rgba(239, 237, 234, 0.08)",
+      "color": "var(--primitive-cream)",
+      "minHeight": 44,
+      "padding": { "x": 16, "y": 10 },
+      "radius": 999
+    },
+    "card": {
+      "bg": "rgba(239, 237, 234, 0.03)",
+      "border": "rgba(239, 237, 234, 0.08)",
+      "padding": 22,
+      "radius": 20
+    },
+    "glass": {
+      "padding": 28,
+      "radius": 22,
+      "shadow": "0 30px 80px rgba(0, 0, 0, 0.35)"
+    },
+    "signal": {
+      "padding": { "x": 20, "y": 18 },
+      "radius": 16
+    },
+    "cta": {
+      "padding": 56,
+      "radius": 28
+    },
+    "rail": {
+      "itemSize": 42,
+      "gap": 10
+    }
+  },
+
+  "typography": {
+    "fonts": {
+      "display": "\"Season Mix Regular\", Georgia, serif",
+      "body": "\"Inter\", -apple-system, BlinkMacSystemFont, sans-serif",
+      "mono": "\"Geist Mono\", \"DM Mono\", monospace",
+      "displayAlt": "'Playfair Display', Georgia, serif",
+      "bodyAlt": "'Crimson Pro', Georgia, serif"
+    },
+    "scale": {
+      "display": {
+        "size": "clamp(4rem, 8vw, 7rem)",
+        "lineHeight": 0.98,
+        "tracking": "-0.03em",
+        "weight": 420
+      },
+      "title": {
+        "size": "clamp(2.6rem, 5vw, 4.6rem)",
+        "lineHeight": 1.1,
+        "tracking": "-0.02em",
+        "weight": 420
+      },
+      "cta": {
+        "size": "clamp(3rem, 6vw, 5.8rem)",
+        "lineHeight": 0.98,
+        "tracking": "-0.03em"
+      },
+      "h3": {
+        "size": 22,
+        "lineHeight": 1.35,
+        "tracking": "-0.02em"
+      },
+      "body": {
+        "size": 16,
+        "lineHeight": 1.65,
+        "maxWidth": "44ch"
+      },
+      "eyebrow": {
+        "size": 13,
+        "tracking": "0.06em",
+        "transform": "uppercase",
+        "weight": 500
+      },
+      "label": {
+        "size": 11,
+        "tracking": "0.08em",
+        "transform": "uppercase"
+      },
+      "meta": {
+        "size": 12,
+        "tracking": "0.08em",
+        "transform": "uppercase"
+      },
+      "price": {
+        "size": "clamp(3.2rem, 6vw, 5.2rem)",
+        "lineHeight": 0.94,
+        "tracking": "-0.04em"
+      }
+    }
+  },
+
+  "spacing": {
+    "scale": {
+      "2xs": 4,
+      "xs": 8,
+      "sm": 12,
+      "md": 16,
+      "lg": 22,
+      "xl": 28,
+      "2xl": 36,
+      "3xl": 48,
+      "4xl": 56,
+      "5xl": 72,
+      "6xl": 96,
+      "7xl": 110
+    },
+    "semantic": {
+      "pageX": 28,
+      "pageY": 72,
+      "pageTop": 110,
+      "railLeft": 88
+    },
+    "gaps": {
+      "xs": 10,
+      "sm": 12,
+      "md": 16,
+      "lg": 18,
+      "xl": 22,
+      "2xl": 32,
+      "3xl": 36
+    }
+  },
+
+  "effects": {
+    "shadows": {
+      "glass": "0 30px 80px rgba(0, 0, 0, 0.35)"
+    },
+    "blur": {
+      "topbar": 18,
+      "glass": 12
+    },
+    "transitions": {
+      "fast": "0.15s",
+      "normal": "0.25s",
+      "slow": "0.7s"
+    }
+  },
+
+  "breakpoints": {
+    "lg": 1100,
+    "md": 780,
+    "sm": 480
+  }
+}

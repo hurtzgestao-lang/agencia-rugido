@@ -2,6 +2,11 @@
   "name": "rugido-scripts",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "meta": "node meta-ads-insights.js",
+    "meta:debug": "node meta-ads-insights.js --date-preset last_7d --debug",
+    "sync:ads": "bash sync-ads.sh"
+  },
   "dependencies": {
     "dotenv": "^16.0.0",
     "googleapis": "^140.0.0"

@@ -68,3 +68,17 @@ Engenharia de Receita, Restrição Ativa, SPICED, Micro-Compromissos (MP1-MP4), 
 ## Começando
 
 No início de cada sessão, o contexto do negócio é carregado automaticamente de `_contexto/`.
+
+## Usando com Codex
+
+O projeto tem um `AGENTS.md` na raiz com as instruções nativas para o Codex: contexto que deve ser lido, tom de voz, estrutura de pastas, comandos úteis e cuidados com segredos.
+
+Para automações locais:
+
+```bash
+cd scripts
+npm install
+npm run meta:debug
+```
+
+Use `.env.example` como referência das variáveis necessárias. O `.env` real fica fora do Git.
