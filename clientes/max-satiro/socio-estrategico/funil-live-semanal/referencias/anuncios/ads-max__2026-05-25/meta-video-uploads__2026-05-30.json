@@ -1,0 +1,98 @@
+{
+  "account_id": "act_822181580904755",
+  "uploaded_at": "2026-05-30T22:55:35Z",
+  "videos": [
+    {
+      "file": "V1.mp4",
+      "ad_name": "MAX-LIVE-V1-OPERACAO-PRESA-NO-DONO",
+      "video_id": "846333488071252",
+      "response": {
+        "id": "846333488071252"
+      },
+      "thumbnail_image_hash": "13488b4ee0bb2564d6a163066e089d7d",
+      "thumbnail_file": "meta-api/thumbnails/V1.jpg"
+    },
+    {
+      "file": "V2.mp4",
+      "ad_name": "MAX-LIVE-V2-BONS-SOCIOS-BONS-CONSELHEIROS",
+      "video_id": "1484702955957689",
+      "response": {
+        "id": "1484702955957689",
+        "reused_from_test": true
+      },
+      "thumbnail_image_hash": "29adace0688b675f36e2c06ae321a45f",
+      "thumbnail_file": "meta-api/thumbnails/V2.jpg"
+    },
+    {
+      "file": "V3.mp4",
+      "ad_name": "MAX-LIVE-V3-O-QUE-E-MESA-COM-O-SOCIO",
+      "video_id": "868386832966948",
+      "response": {
+        "id": "868386832966948"
+      },
+      "thumbnail_image_hash": "63f8a77b99ac4cde587b44753c1c2898",
+      "thumbnail_file": "meta-api/thumbnails/V3.jpg"
+    },
+    {
+      "file": "V4.mp4",
+      "ad_name": "MAX-LIVE-V4-SEM-TEORIA-DE-PALCO",
+      "video_id": "937435685954230",
+      "response": {
+        "id": "937435685954230"
+      },
+      "thumbnail_image_hash": "e5adf8a320784fd8acfce04153a623f5",
+      "thumbnail_file": "meta-api/thumbnails/V4.jpg"
+    },
+    {
+      "file": "V5.mp4",
+      "ad_name": "MAX-LIVE-V5-PASSOU-DOS-100K-E-PLATOU",
+      "video_id": "1718805619474570",
+      "response": {
+        "id": "1718805619474570"
+      },
+      "thumbnail_image_hash": "57ca04d87b536edb4552fb4ce4afd06c",
+      "thumbnail_file": "meta-api/thumbnails/V5.jpg"
+    },
+    {
+      "file": "V6.mp4",
+      "ad_name": "MAX-LIVE-V6-FATURAMENTO-GIRANDO-NO-MESMO-LUGAR",
+      "video_id": "1504262648062180",
+      "response": {
+        "id": "1504262648062180"
+      },
+      "reuploaded": true,
+      "thumbnail_image_hash": "a62bea9c820724189f948605c5096cbf",
+      "thumbnail_file": "meta-api/thumbnails/V6.jpg"
+    },
+    {
+      "file": "V7.mp4",
+      "ad_name": "MAX-LIVE-V7-RECEITA-ESTRATEGIA-GESTAO-OPERACAO",
+      "video_id": "1261933539083641",
+      "response": {
+        "id": "1261933539083641"
+      },
+      "thumbnail_image_hash": "c3642958233774e108d01bfc790f0f68",
+      "thumbnail_file": "meta-api/thumbnails/V7.jpg"
+    },
+    {
+      "file": "V8.mp4",
+      "ad_name": "MAX-LIVE-V8-FATURA-MAIS-SOBRA-MENOS",
+      "video_id": "986007237469057",
+      "response": {
+        "id": "986007237469057"
+      },
+      "thumbnail_image_hash": "0000a56fb5d7d0dcdd3a5345cf7dcbf3",
+      "thumbnail_file": "meta-api/thumbnails/V8.jpg"
+    },
+    {
+      "file": "V9.mp4",
+      "ad_name": "MAX-LIVE-V9-CONCORRENTE-CRESCENDO-MAIS",
+      "video_id": "1310196187324443",
+      "response": {
+        "id": "1310196187324443"
+      },
+      "thumbnail_image_hash": "bd2d6aa4356c6bc16fd02b350a648a89",
+      "thumbnail_file": "meta-api/thumbnails/V9.jpg"
+    }
+  ]
+}

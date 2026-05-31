@@ -5,3 +5,8 @@
 node_modules/
 scripts/node_modules/
 npm-debug.log*
+
+# Midia bruta local — manter transcricoes, manifestos e previews versionados
+*.mp4
+*.mov
+*.mkv

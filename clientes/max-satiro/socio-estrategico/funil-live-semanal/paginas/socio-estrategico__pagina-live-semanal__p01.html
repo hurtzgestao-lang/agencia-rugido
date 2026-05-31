@@ -256,6 +256,45 @@
       box-shadow: 0 0 0 3px rgba(219, 190, 122, .18);
     }
 
+    .iti {
+      width: 100%;
+    }
+
+    .iti input {
+      width: 100%;
+    }
+
+    .iti--separate-dial-code .iti__selected-flag {
+      border-radius: 7px 0 0 7px;
+      background: rgba(14, 26, 18, .08);
+    }
+
+    ._has_error {
+      border-color: #f37c7b !important;
+      box-shadow: 0 0 0 3px rgba(243, 124, 123, .2) !important;
+    }
+
+    ._error-inner {
+      margin: 8px 0 0;
+      color: #ffd9d9;
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    ._form-thank-you {
+      display: none;
+      padding: 18px;
+      border: 1px solid rgba(219, 190, 122, .22);
+      border-radius: 8px;
+      color: var(--cream);
+      background: rgba(240, 236, 226, .045);
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 1.4;
+      text-align: center;
+    }
+
     .submit {
       width: 100%;
       min-height: 50px;
@@ -275,6 +314,12 @@
     .submit:hover {
       background: #e6cb8a;
       transform: translateY(-1px);
+    }
+
+    .submit:disabled {
+      cursor: not-allowed;
+      opacity: .55;
+      transform: none;
     }
 
     .microcopy {
@@ -431,7 +476,7 @@
       <div class="copy">
         <p class="kicker">Aula gratuita ao vivo</p>
         <h1><span>Aula ao vivo:</span> como crescer sem depender tanto do dono</h1>
-        <p class="lead">Toda segunda-feira, às 19h, Max Satiro dá uma aula prática para donos de empresas de serviço que já vendem e querem organizar o próximo salto.</p>
+        <p class="lead">Entenda como sua empresa pode crescer sem depender do seu tempo.</p>
 
         <ul class="proof" aria-label="O que sera abordado">
           <li>Aula gratuita, ao vivo, para assistir na próxima segunda.</li>
@@ -439,29 +484,375 @@
           <li>Com Max Satiro, ex-CMO e ex-sócio da V4.</li>
         </ul>
 
-        <form class="capture" action="#" method="post" aria-label="Formulário de captura">
-          <p class="capture-title">Link da aula + lembrete no WhatsApp</p>
+        <form class="capture _form _form_5 _inline-form _dark" action="https://sociestrategico.activehosted.com/proc.php" method="post" id="form_5" novalidate data-styles-version="5" aria-label="Formulário de captura">
+          <input type="hidden" name="u" value="5">
+          <input type="hidden" name="f" value="5">
+          <input type="hidden" name="s">
+          <input type="hidden" name="c" value="0">
+          <input type="hidden" name="m" value="0">
+          <input type="hidden" name="act" value="sub">
+          <input type="hidden" name="v" value="2">
+          <input type="hidden" name="or" value="b0b2eae9-b58c-4170-bd0d-1c83611c9ed4">
+          <input type="hidden" name="utm_source">
+          <input type="hidden" name="utm_medium">
+          <input type="hidden" name="utm_campaign">
+          <input type="hidden" name="utm_id">
+          <input type="hidden" name="utm_term">
+          <input type="hidden" name="utm_content">
+          <input type="hidden" name="utm_keyword">
+          <input type="hidden" name="fbp">
+          <input type="hidden" name="fbc">
+          <input type="hidden" name="page_location">
+          <input type="hidden" name="user_agent">
+          <input type="hidden" name="event_id">
 
-          <div class="fields">
-            <div class="field">
-              <label for="nome">Nome</label>
-              <input id="nome" name="nome" type="text" autocomplete="name" placeholder="Nome completo" required>
+          <div class="_form-content">
+            <p class="capture-title">Inscreva-se para a aula ao vivo</p>
+
+            <div class="fields">
+              <div class="field">
+                <label for="fullname">Nome</label>
+                <input id="fullname" name="fullname" type="text" autocomplete="name" placeholder="Nome completo" required>
+              </div>
+              <div class="field">
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="Seu melhor e-mail" required>
+              </div>
+              <div class="field">
+                <label for="phone">WhatsApp</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="WhatsApp" required>
+              </div>
             </div>
-            <div class="field">
-              <label for="email">E-mail</label>
-              <input id="email" name="email" type="email" autocomplete="email" placeholder="Seu melhor e-mail" required>
-            </div>
-            <div class="field">
-              <label for="whatsapp">WhatsApp</label>
-              <input id="whatsapp" name="whatsapp" type="tel" autocomplete="tel" placeholder="WhatsApp" required>
-            </div>
+
+            <button id="_form_5_submit" class="submit _submit" type="submit">Quero participar da aula</button>
+            <p class="microcopy">Enviaremos o acesso e os lembretes.</p>
           </div>
 
-          <button class="submit" type="submit">Quero receber o link</button>
-          <p class="microcopy">Você receberá o link da aula ao vivo.</p>
+          <div class="_form-thank-you" tabindex="-1"></div>
         </form>
       </div>
     </section>
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  <script>
+    const CONFIG = {
+      META_PIXEL_ID: '',
+      FORM_PROVIDER: 'activecampaign',
+      FORM_ID: '5',
+      FORM_ACTION_URL: 'https://sociestrategico.activehosted.com/proc.php',
+      CAPI_ENDPOINT: '',
+      REDIRECT_MODE: 'form_provider',
+      THANK_YOU_URL: null
+    };
+
+    window.cfields = [];
+
+    function loadScript(url, callback, isSubmit) {
+      const head = document.querySelector('head');
+      const script = document.createElement('script');
+      script.charset = 'utf-8';
+      script.src = url;
+      script.onload = function () {
+        if (callback) callback();
+      };
+      script.onerror = function () {
+        if (isSubmit) showFormError('Desculpe, seu envio falhou. Tente novamente.');
+      };
+      head.appendChild(script);
+    }
+
+    function installMetaPixel() {
+      if (!CONFIG.META_PIXEL_ID) return;
+
+      !function(f,b,e,v,n,t,s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = true;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = true;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', CONFIG.META_PIXEL_ID);
+      fbq('track', 'PageView');
+    }
+
+    function getUrlParam(name) {
+      if (name.toLowerCase() !== 'email') {
+        const params = new URLSearchParams(window.location.search);
+        return params.get(name) || false;
+      }
+
+      const qString = window.location.search;
+      if (!qString) return false;
+
+      const parameters = qString.substr(1).split('&');
+      for (let i = 0; i < parameters.length; i++) {
+        const parameter = parameters[i].split('=');
+        if (parameter[0].toLowerCase() === 'email') {
+          return parameter[1] === undefined ? true : decodeURIComponent(parameter[1]);
+        }
+      }
+
+      return false;
+    }
+
+    function getCookie(name) {
+      const match = document.cookie.match(new RegExp('(^|; )' + name + '=([^;]+)'));
+      return match ? match[2] : localStorage.getItem(name);
+    }
+
+    function getFacebookCookies() {
+      const fbpVal = getCookie('_fbp') || '';
+      let fbcVal = getCookie('_fbc') || '';
+
+      if (!fbcVal && window.location.search.includes('fbclid=')) {
+        const match = window.location.search.match(/fbclid=([^&]+)/);
+        if (match) fbcVal = 'fb.1.' + new Date().getTime() + '.' + match[1];
+      }
+
+      return { fbpVal, fbcVal };
+    }
+
+    function setFieldValue(form, name, value) {
+      const input = form.querySelector(`input[name="${name}"]`);
+      if (input) input.value = value || '';
+    }
+
+    function splitName(fullName) {
+      const parts = fullName.trim().split(/\s+/).filter(Boolean);
+      const firstName = parts.shift() || '';
+      return {
+        firstName,
+        lastName: parts.join(' ')
+      };
+    }
+
+    let iti;
+
+    function initializePhoneInput(inputPhone) {
+      const style = document.createElement('link');
+      style.rel = 'stylesheet';
+      style.href = 'https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css';
+      document.head.appendChild(style);
+
+      loadScript('https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js', function () {
+        iti = intlTelInput(inputPhone, {
+          loadUtils: () => import('https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/utils.js'),
+          separateDialCode: true,
+          autoPlaceholder: 'aggressive',
+          initialCountry: 'br',
+          preferredCountries: ['br', 'pt', 'us'],
+          formatAsYouType: false,
+          formatOnDisplay: false,
+          geoIpLookup: (success) => {
+            fetch('https://sociestrategico.activehosted.com/api/public/geo.php')
+              .then((res) => res.json())
+              .then((data) => success(data.country_code || 'BR'))
+              .catch(() => success('BR'));
+          }
+        });
+      });
+
+      if (typeof $ !== 'undefined' && $.fn.mask) {
+        const maskBehavior = function (val) {
+          return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 90000-0000';
+        };
+
+        $('#phone').mask(maskBehavior, {
+          onKeyPress: function (val, e, field, opts) {
+            field.mask(maskBehavior.apply({}, arguments), opts);
+          }
+        });
+      }
+    }
+
+    function showFormError(message) {
+      const form = document.getElementById('form_5');
+      const button = form.querySelector('button[type="submit"]');
+      const oldError = form.querySelector('._form_error');
+      if (oldError) oldError.remove();
+
+      const error = document.createElement('div');
+      error.className = '_error-inner _form_error _no_arrow';
+      error.textContent = message;
+      button.insertAdjacentElement('beforebegin', error);
+      button.disabled = false;
+      button.classList.remove('processing');
+    }
+
+    function validateForm(form) {
+      const requiredFields = form.querySelectorAll('[required]');
+      let isValid = true;
+
+      form.querySelectorAll('._has_error').forEach((field) => field.classList.remove('_has_error'));
+      form.querySelectorAll('._form_error').forEach((error) => error.remove());
+
+      requiredFields.forEach((field) => {
+        if (!field.value.trim()) {
+          field.classList.add('_has_error');
+          isValid = false;
+        }
+      });
+
+      const email = form.querySelector('input[name="email"]');
+      if (email && email.value && !email.value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)@[a-z0-9-]+(\.[a-z0-9-]+)(\.[a-z]{2,})$/i)) {
+        email.classList.add('_has_error');
+        isValid = false;
+      }
+
+      const phone = form.querySelector('#phone');
+      if (phone && phone.value.trim() && typeof iti !== 'undefined' && !iti.isValidNumber()) {
+        phone.classList.add('_has_error');
+        isValid = false;
+      }
+
+      if (!isValid) showFormError('Preencha os campos corretamente.');
+      return isValid;
+    }
+
+    function fillTrackingFields(form, eventId) {
+      const trackingFields = [
+        'utm_source',
+        'utm_medium',
+        'utm_campaign',
+        'utm_id',
+        'utm_term',
+        'utm_content',
+        'utm_keyword'
+      ];
+
+      trackingFields.forEach((field) => setFieldValue(form, field, getUrlParam(field) || ''));
+
+      const { fbpVal, fbcVal } = getFacebookCookies();
+      setFieldValue(form, 'fbp', fbpVal);
+      setFieldValue(form, 'fbc', fbcVal);
+      setFieldValue(form, 'page_location', window.location.href);
+      setFieldValue(form, 'user_agent', navigator.userAgent);
+      setFieldValue(form, 'event_id', eventId);
+
+      return { fbpVal, fbcVal };
+    }
+
+    function fireLeadEvents(form, eventId, fbpVal, fbcVal) {
+      const fullNameVal = form.querySelector('input[name="fullname"]')?.value || '';
+      const emailVal = form.querySelector('input[name="email"]')?.value || '';
+      const phoneVal = form.querySelector('input[name="phone"]')?.value || '';
+      const { firstName, lastName } = splitName(fullNameVal);
+
+      if (typeof fbq === 'function') {
+        fbq('track', 'Lead', {
+          fn: firstName,
+          ln: lastName,
+          em: emailVal,
+          ph: phoneVal,
+          fbp: fbpVal,
+          fbc: fbcVal
+        }, {
+          eventID: eventId
+        });
+      }
+
+      if (CONFIG.CAPI_ENDPOINT) {
+        fetch(CONFIG.CAPI_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            event_id: eventId,
+            event_name: 'Lead',
+            first_name: firstName,
+            last_name: lastName,
+            email: emailVal,
+            phone: phoneVal,
+            fbp: fbpVal,
+            fbc: fbcVal,
+            utm_source: getUrlParam('utm_source') || '',
+            utm_medium: getUrlParam('utm_medium') || '',
+            utm_campaign: getUrlParam('utm_campaign') || '',
+            utm_id: getUrlParam('utm_id') || '',
+            utm_term: getUrlParam('utm_term') || '',
+            utm_content: getUrlParam('utm_content') || '',
+            utm_keyword: getUrlParam('utm_keyword') || '',
+            page_location: window.location.href,
+            user_agent: navigator.userAgent
+          })
+        }).catch((err) => console.error('Erro silencioso na CAPI:', err));
+      }
+    }
+
+    function serializeForm(form) {
+      const formData = new FormData(form);
+      const params = new URLSearchParams();
+
+      formData.forEach((value, key) => {
+        params.append(key, value);
+      });
+
+      return params.toString().replace(/%0A/g, '\\n');
+    }
+
+    window._show_thank_you = function(id, message, trackcmpUrl, email) {
+      const form = document.getElementById(`form_${id}`) || document.getElementById('form_5');
+      const content = form.querySelector('._form-content');
+      const thankYou = form.querySelector('._form-thank-you');
+
+      if (content) content.style.display = 'none';
+      thankYou.innerHTML = message || 'Cadastro recebido. Enviaremos o acesso e os lembretes no contato informado.';
+      thankYou.style.display = 'block';
+      thankYou.focus();
+
+      if (trackcmpUrl) loadScript(trackcmpUrl);
+
+      if (CONFIG.REDIRECT_MODE === 'code' && CONFIG.THANK_YOU_URL) {
+        setTimeout(function () {
+          window.location.href = CONFIG.THANK_YOU_URL;
+        }, 800);
+      }
+    };
+
+    window._show_error = function(id, message) {
+      showFormError(message || 'Desculpe, seu envio falhou. Tente novamente.');
+    };
+
+    document.addEventListener('DOMContentLoaded', function () {
+      installMetaPixel();
+
+      const form = document.getElementById('form_5');
+      const phone = form.querySelector('#phone');
+      const submitButton = form.querySelector('#_form_5_submit');
+
+      if (phone) initializePhoneInput(phone);
+
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        if (!validateForm(form)) return false;
+
+        if (phone && typeof iti !== 'undefined') {
+          phone.value = iti.getNumber();
+        }
+
+        submitButton.disabled = true;
+        submitButton.classList.add('processing');
+
+        const eventId = 'lead_' + new Date().getTime() + '_' + Math.random().toString(36).substr(2, 9);
+        const { fbpVal, fbcVal } = fillTrackingFields(form, eventId);
+        fireLeadEvents(form, eventId, fbpVal, fbcVal);
+
+        const serialized = serializeForm(form);
+        loadScript(CONFIG.FORM_ACTION_URL + '?' + serialized + '&jsonp=true', null, true);
+        return false;
+      });
+    });
+  </script>
 </body>
 </html>

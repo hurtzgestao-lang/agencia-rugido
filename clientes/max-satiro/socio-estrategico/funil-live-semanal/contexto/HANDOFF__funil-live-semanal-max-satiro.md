@@ -2,6 +2,8 @@
 
 Atualizado em: 2026-05-27
 
+Atualizacao posterior: em 2026-05-30 foi criada a memoria operacional `contexto/memoria-operacional__2026-05-30.md`, com paginas novas, anuncios baixados/transcritos, tentativa de subida via Meta API, bloqueios, copy atual, UTM, e-mail e pendencias. Para qualquer proxima sessao, ler essa memoria junto deste handoff.
+
 ## 1. Contexto Geral
 
 Estamos construindo o funil de live semanal do Max Satiro / Sócio Estratégico.

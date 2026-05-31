@@ -82,3 +82,18 @@ npm run meta:debug
 ```
 
 Use `.env.example` como referência das variáveis necessárias. O `.env` real fica fora do Git.
+
+## Usando com OpenClaw
+
+O projeto tem uma camada nativa para OpenClaw:
+
+- `OPENCLAW.md`
+- `SOUL.md`
+- `IDENTITY.md`
+- `USER.md`
+- `TOOLS.md`
+- `.agents/skills/grupo-rugido/SKILL.md`
+
+Essa camada aponta para as fontes canônicas do repo em vez de duplicar contexto. Para novas sessões, o agente deve ler `AGENTS.md`, `CLAUDE.md`, `_contexto/`, `tarefas.md` e os arquivos do cliente/projeto citado.
+
+Projeto em foco atual: `clientes/max-satiro/socio-estrategico/funil-live-semanal/`.

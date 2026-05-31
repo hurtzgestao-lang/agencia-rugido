@@ -1,0 +1,1513 @@
+{
+  "generated_at": "2026-05-31T00:43:26.251Z",
+  "api_version": "v21.0",
+  "config": {
+    "ad_account_id": "act_822181580904755",
+    "business_id": "974152875276288",
+    "page_id": "948489798358833",
+    "instagram_id": "17841400419788429",
+    "landing_url": "https://www.socioestrategico.com/live-semanal-v2",
+    "daily_budget_cents": 5000,
+    "objective": "OUTCOME_LEADS",
+    "optimization_goal": "OFFSITE_CONVERSIONS",
+    "billing_event": "IMPRESSIONS",
+    "status_planejado": "PAUSED",
+    "publico": "BR aberto, 18-65, todos os generos, sem interesses"
+  },
+  "checks": {
+    "me": {
+      "id": "967779559426801",
+      "name": "Thalita Moraes Santos"
+    },
+    "debug_token": {
+      "app_id": "4436746306549284",
+      "type": "USER",
+      "application": "CLI Codex",
+      "data_access_expires_at": 1787961828,
+      "expires_at": 0,
+      "is_valid": true,
+      "scopes": [
+        "pages_show_list",
+        "ads_management",
+        "ads_read",
+        "business_management",
+        "pages_read_engagement",
+        "pages_manage_ads",
+        "public_profile"
+      ],
+      "missing_scopes": [
+        "instagram_basic"
+      ]
+    },
+    "business": {
+      "id": "974152875276288",
+      "name": "Sócio Estratégico"
+    },
+    "accessible_accounts": [
+      {
+        "id": "act_1490528322041018",
+        "account_id": "1490528322041018",
+        "name": "Lucas Felix (Read-Only)",
+        "account_status": 2,
+        "currency": "USD",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "112330595264144",
+          "name": "BM - Lucas Felix"
+        }
+      },
+      {
+        "id": "act_822181580904755",
+        "account_id": "822181580904755",
+        "name": "Sócio Estratégico",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "974152875276288",
+          "name": "Sócio Estratégico"
+        }
+      },
+      {
+        "id": "act_2852715258294541",
+        "account_id": "2852715258294541",
+        "name": "Conta 01 - Reserva",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "183436635576504",
+          "name": "Christiano Wagner"
+        }
+      },
+      {
+        "id": "act_3289152611202522",
+        "account_id": "3289152611202522",
+        "name": "theth erthdfghret",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "614293172853287",
+          "name": "Instituto Impulso"
+        }
+      },
+      {
+        "id": "act_1118759579563576",
+        "account_id": "1118759579563576",
+        "name": "Testes",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "1081477386779732",
+          "name": "Checkin Comercio Ltda"
+        }
+      },
+      {
+        "id": "act_431042591715138",
+        "account_id": "431042591715138",
+        "name": "metamorfose filmes",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "1288123344653862",
+          "name": "Metamorfosefilmes"
+        }
+      },
+      {
+        "id": "act_1523208744711364",
+        "account_id": "1523208744711364",
+        "name": "Conta de Anúncios Sem uso",
+        "account_status": 101,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "4621550394627451",
+          "name": "Grupo Rugido"
+        }
+      },
+      {
+        "id": "act_694746884825851",
+        "account_id": "694746884825851",
+        "name": "Agência",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "4621550394627451",
+          "name": "Grupo Rugido"
+        }
+      },
+      {
+        "id": "act_924399498461854",
+        "account_id": "924399498461854",
+        "name": "Escola",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "4621550394627451",
+          "name": "Grupo Rugido"
+        }
+      },
+      {
+        "id": "act_800538657863799",
+        "account_id": "800538657863799",
+        "name": "Jack Mariano",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "150537172541557",
+          "name": "Jack Mariano"
+        }
+      },
+      {
+        "id": "act_1045234039498379",
+        "account_id": "1045234039498379",
+        "name": "Karibe Shopping | 01",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "1209479196292252",
+          "name": "Karibe Shopping"
+        }
+      },
+      {
+        "id": "act_5937529939591617",
+        "account_id": "5937529939591617",
+        "name": "Hidrogyn",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "357767058311369",
+          "name": "Hidrogyn"
+        }
+      },
+      {
+        "id": "act_793903868397935",
+        "account_id": "793903868397935",
+        "name": "Thalita Moraes Santos",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo"
+      },
+      {
+        "id": "act_612944266970490",
+        "account_id": "612944266970490",
+        "name": "Mentores 01",
+        "account_status": 2,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "1568608113556915",
+          "name": "Mentores Design LTDA"
+        }
+      },
+      {
+        "id": "act_653547106216766",
+        "account_id": "653547106216766",
+        "name": "Escola - Editora",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "2302500766565903",
+          "name": "Lucas Felix Editora"
+        }
+      },
+      {
+        "id": "act_3219434408307481",
+        "account_id": "3219434408307481",
+        "name": "Escola Grupo Rugido",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "655455015989365",
+          "name": "Grupo Rugido - Assessoria"
+        }
+      },
+      {
+        "id": "act_442530011345753",
+        "account_id": "442530011345753",
+        "name": "WM English",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "539468401323372",
+          "name": "Micaias Moraes"
+        }
+      },
+      {
+        "id": "act_829904408087671",
+        "account_id": "829904408087671",
+        "name": "Venda Direta",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "4621550394627451",
+          "name": "Grupo Rugido"
+        }
+      },
+      {
+        "id": "act_822908989014995",
+        "account_id": "822908989014995",
+        "name": "Lucas Felix Editora E Treinamentos Ltda",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "951287475547386",
+          "name": "Lucas Felix Editora E Treinamentos Ltda"
+        }
+      },
+      {
+        "id": "act_647057390491663",
+        "account_id": "647057390491663",
+        "name": "Conta 01",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "107126822182009",
+          "name": "L&S Contabilidade"
+        }
+      },
+      {
+        "id": "act_920899169276351",
+        "account_id": "920899169276351",
+        "name": "Mentores",
+        "account_status": 2,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "1568608113556915",
+          "name": "Mentores Design LTDA"
+        }
+      },
+      {
+        "id": "act_1746771105723814",
+        "account_id": "1746771105723814",
+        "name": "Remarketing",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "4621550394627451",
+          "name": "Grupo Rugido"
+        }
+      },
+      {
+        "id": "act_1975643916101111",
+        "account_id": "1975643916101111",
+        "name": "Art Sabor | 01",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "1024194471870617",
+          "name": "Bm Livre"
+        }
+      },
+      {
+        "id": "act_451741977133992",
+        "account_id": "451741977133992",
+        "name": "Mentoria Maestro",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "4621550394627451",
+          "name": "Grupo Rugido"
+        }
+      },
+      {
+        "id": "act_693567229218173",
+        "account_id": "693567229218173",
+        "name": "Ponto com",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "1685918608468465",
+          "name": "Ponto Com"
+        }
+      },
+      {
+        "id": "act_1367119584072105",
+        "account_id": "1367119584072105",
+        "name": "Elshaday Viagens",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "175800219931668",
+          "name": "Elshaday Viagens"
+        }
+      },
+      {
+        "id": "act_242273248296181",
+        "account_id": "242273248296181",
+        "name": "Ponto Com - Backup",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "1685918608468465",
+          "name": "Ponto Com"
+        }
+      },
+      {
+        "id": "act_806495340854540",
+        "account_id": "806495340854540",
+        "name": "[C01] Oral Saúde",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "147237034847013",
+          "name": "Oral Saúde"
+        }
+      },
+      {
+        "id": "act_9117848344952506",
+        "account_id": "9117848344952506",
+        "name": "Mansão Maromba",
+        "account_status": 3,
+        "currency": "BRL",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "154454250681971",
+          "name": "mansaomaromba.para"
+        }
+      },
+      {
+        "id": "act_1295976014371699",
+        "account_id": "1295976014371699",
+        "name": "Gravação Curso",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "4621550394627451",
+          "name": "Grupo Rugido"
+        }
+      },
+      {
+        "id": "act_3716458881929536",
+        "account_id": "3716458881929536",
+        "name": "Mansão Maromba (backup)",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "154454250681971",
+          "name": "mansaomaromba.para"
+        }
+      },
+      {
+        "id": "act_101958062998755",
+        "account_id": "101958062998755",
+        "name": "Buteco C01",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Los_Angeles",
+        "business": {
+          "id": "969569270993199",
+          "name": "butecobarpremiumpbs"
+        }
+      },
+      {
+        "id": "act_1589331421552819",
+        "account_id": "1589331421552819",
+        "name": "Anúncios",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "4621550394627451",
+          "name": "Grupo Rugido"
+        }
+      },
+      {
+        "id": "act_6871073912927250",
+        "account_id": "6871073912927250",
+        "name": "MAX SATIRO",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "4621550394627451",
+          "name": "Grupo Rugido"
+        }
+      },
+      {
+        "id": "act_257915017188672",
+        "account_id": "257915017188672",
+        "name": "Jack Mariano — Conta de anúncios",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "Etc/GMT+3",
+        "business": {
+          "id": "150537172541557",
+          "name": "Jack Mariano"
+        }
+      },
+      {
+        "id": "act_3688203671455215",
+        "account_id": "3688203671455215",
+        "name": "Tríade",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "914086166925255",
+          "name": "Tríade Academia"
+        }
+      },
+      {
+        "id": "act_1194018898441064",
+        "account_id": "1194018898441064",
+        "name": "Agência - Backup",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "655455015989365",
+          "name": "Grupo Rugido - Assessoria"
+        }
+      },
+      {
+        "id": "act_305158159269751",
+        "account_id": "305158159269751",
+        "name": "CONTA #03",
+        "account_status": 2,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "739161468185851",
+          "name": "kaitlynwinter9744"
+        }
+      },
+      {
+        "id": "act_7788753311204144",
+        "account_id": "7788753311204144",
+        "name": "WM English Backup",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "539468401323372",
+          "name": "Micaias Moraes"
+        }
+      },
+      {
+        "id": "act_822744633404103",
+        "account_id": "822744633404103",
+        "name": "CA01 - Oliveira Veículos ",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "112330595264144",
+          "name": "BM - Lucas Felix"
+        }
+      },
+      {
+        "id": "act_1581243986137591",
+        "account_id": "1581243986137591",
+        "name": "CA - Marcos Consorcio",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "3805512789774759",
+          "name": "BM - Marcos Consorcio"
+        }
+      },
+      {
+        "id": "act_1110438987560812",
+        "account_id": "1110438987560812",
+        "name": "Lucas Felix",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "951287475547386",
+          "name": "Lucas Felix Editora E Treinamentos Ltda"
+        }
+      },
+      {
+        "id": "act_1402153257606333",
+        "account_id": "1402153257606333",
+        "name": "Helios Creative",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "178422913907521",
+          "name": "Helios creative"
+        }
+      },
+      {
+        "id": "act_727077216509760",
+        "account_id": "727077216509760",
+        "name": "Lucas Felix 2",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "951287475547386",
+          "name": "Lucas Felix Editora E Treinamentos Ltda"
+        }
+      },
+      {
+        "id": "act_1731896974092254",
+        "account_id": "1731896974092254",
+        "name": "Buteco Bar premium",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "969569270993199",
+          "name": "butecobarpremiumpbs"
+        }
+      },
+      {
+        "id": "act_811272414954520",
+        "account_id": "811272414954520",
+        "name": "Mundo do Queijo (Read-Only)",
+        "account_status": 1,
+        "currency": "USD",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "579990431322858",
+          "name": "Mundo do Queijo"
+        }
+      },
+      {
+        "id": "act_4239339866382228",
+        "account_id": "4239339866382228",
+        "name": "Lucas Felix - Luvia (Read-Only)",
+        "account_status": 2,
+        "currency": "USD",
+        "timezone_name": "America/Belem",
+        "business": {
+          "id": "112330595264144",
+          "name": "BM - Lucas Felix"
+        }
+      },
+      {
+        "id": "act_888531140171334",
+        "account_id": "888531140171334",
+        "name": "CONTA RESERVA",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "2302500766565903",
+          "name": "Lucas Felix Editora"
+        }
+      },
+      {
+        "id": "act_1784633039608844",
+        "account_id": "1784633039608844",
+        "name": "Agências Clínicas",
+        "account_status": 1,
+        "currency": "BRL",
+        "timezone_name": "America/Sao_Paulo",
+        "business": {
+          "id": "655455015989365",
+          "name": "Grupo Rugido - Assessoria"
+        }
+      }
+    ],
+    "chosen_account": {
+      "id": "act_822181580904755",
+      "account_id": "822181580904755",
+      "name": "Sócio Estratégico",
+      "account_status": 1,
+      "currency": "BRL",
+      "timezone_name": "America/Sao_Paulo",
+      "disable_reason": 0,
+      "business": {
+        "id": "974152875276288",
+        "name": "Sócio Estratégico"
+      },
+      "capabilities": [
+        "CAN_CREATE_CALL_ADS",
+        "CAN_SEE_GROWTH_OPPORTUNITY_DATA",
+        "ENABLE_IA_RECIRC_AD_DISPLAY_FORMAT",
+        "CAN_USE_MOBILE_EXTERNAL_PAGE_TYPE",
+        "CAN_USE_FB_FEED_POSITION_IN_VIDEO_VIEW_15S",
+        "ENABLE_BIZ_DISCO_ADS",
+        "ENABLE_BRAND_OBJECTIVES_FOR_BIZ_DISCO_ADS",
+        "ENABLE_DIRECT_REACH_FOR_BIZ_DISCO_ADS",
+        "ENABLE_DYNAMIC_ADS_ON_IG_STORIES_ADS",
+        "ENABLE_IG_STORIES_ADS_PPE_OBJECTIVE",
+        "ENABLE_IG_STORIES_ADS_MESSENGER_DESTINATION",
+        "ENABLE_PAC_FOR_BIZ_DISCO_ADS",
+        "CAN_USE_FB_INSTREAM_POSITION_IN_VIDEO_VIEW_15S",
+        "CAN_USE_FB_STORY_POSITION_IN_VIDEO_VIEW_15S",
+        "CAN_USE_AN_INSTREAM_POSITION_IN_VIDEO_VIEW_15S",
+        "CAN_USE_IG_STORY_POSITION_IN_VIDEO_VIEW_15S",
+        "CAN_USE_FB_IA_POSITION_IN_VIDEO_VIEW_15S",
+        "CAN_USE_FB_MKT_PLACE_POSITION_IN_VIDEO_VIEW_15S",
+        "CAN_USE_IG_FEED_POSITION_IN_VIDEO_VIEW_15S",
+        "CAN_USE_IG_EXPLORE_POSITION_IN_VIDEO_VIEW_15S",
+        "CAN_USE_AN_CLASSIC_POSITION_IN_VIDEO_VIEW_15S",
+        "CAN_USE_AN_REWARD_VIDEO_POSITION_IN_VIDEO_VIEW_15S",
+        "CAN_USE_REACH_AND_FREQUENCY",
+        "CAN_USE_WCA_V3_UI",
+        "CAN_USE_RECURRING_BUDGET",
+        "HAS_VALID_PAYMENT_METHODS",
+        "CAN_USE_LINK_CLICK_BILLING_EVENT",
+        "CAN_SEE_NEW_CONVERSION_WINDOW_NUX",
+        "ADS_INSTREAM_INTERFACE_INTEGRITY",
+        "ADS_INSTREAM_LINK_CLICK",
+        "ADS_INSTREAM_LINK_CLICK_IMAGE",
+        "ADS_INSTREAM_POST_ENGAGEMENT_IMAGE",
+        "ADS_IN_OBJECTIVES_DEPRECATION",
+        "MESSENGER_INBOX_ADS_PRODUCT_CATALOG_SALES",
+        "CAN_SHOW_MESSENGER_DUPLICSTION_UPSELL",
+        "ALLOW_INSTREAM_ONLY_FOR_REACH",
+        "ADS_INSTREAM_VIDEO_PLACEMENT_CONVERSIONS",
+        "CAN_CREATE_INSTAGRAM_EXPLORE_ADS",
+        "ALLOW_INSTREAM_VIDEOS_PLACEMENT_ONLY",
+        "ALLOW_INSTREAM_NON_INTERRUPTIVE_LEADGEN",
+        "INSTREAM_VIDEO_AD_DESKTOP_CONVERSION_AD_PREVIEW",
+        "ALLOW_INSTREAM_ONLY_FOR_BRAND_AWARENESS_AUCTION",
+        "ALLOW_SUGGESTED_VIDEOS_PLACEMENT_ONLY",
+        "WHATSAPP_DESTINATION_ADS",
+        "CTM_ADS_CREATION_CLICK_TO_DIRECT",
+        "CTW_ADS_ENABLE_IG_FEED_PLACEMENT",
+        "CTW_ADS_FOR_NON_MESSAGES_OBJECTIVE",
+        "CTW_ADS_TRUSTED_TIER_ADVERTISER",
+        "ADS_PLACEMENT_MARKETPLACE",
+        "ADNW_DISABLE_INSTREAM_AND_WEB_PLACEMENT",
+        "CAN_CHANGE_BILLING_THRESHOLD",
+        "CAN_USE_APP_EVENT_AVERAGE_COST_BIDDING",
+        "CAN_USE_LEAD_GEN_AVERAGE_COST_BIDDING",
+        "ADS_DELIVERY_INSIGHTS_IN_BIDDING_PRESET_EXPERIMENT",
+        "ADS_DELIVERY_INSIGHTS_OPTIMIZATION_PRESET",
+        "CAN_SEE_APP_AD_EVENTS",
+        "CAN_SEE_NEW_STANDARD_EVENTS_BETA",
+        "CAN_USE_FREQUENCY_CONTROLS_FOR_AUCTION_GK",
+        "CAN_SEE_VCK_HOLIDAY_TEMPLATES",
+        "ENABLE_DCO_FOR_FB_STORY_ADS",
+        "CAN_USE_IG_EXPLORE_GRID_HOME_PLACEMENT",
+        "CAN_USE_IG_EXPLORE_HOME_IN_REACH_AND_FREQUENCY",
+        "CAN_USE_IG_EXPLORE_HOME_POST_ENGAGEMENT_MESSAGES",
+        "CAN_USE_IG_SEARCH_PLACEMENT",
+        "CAN_USE_IG_REELS_PAC_CAROUSEL",
+        "CAN_USE_IG_REELS_POSITION",
+        "CAN_SEE_CONVERSION_LIFT_SUMMARY",
+        "CAN_USE_IG_PROFILE_FEED_POSITION",
+        "CAN_USE_IG_REELS_REACH_AND_FREQUENCY",
+        "CAN_USE_IG_SHOP_TAB_PAC",
+        "ENABLE_WEBSITE_CONVERSIONS_FOR_FB_STORY_ADS",
+        "ENABLE_MESSENGER_INBOX_VIDEO_ADS",
+        "ENABLE_VIDEO_VIEWS_FOR_FB_STORY_ADS",
+        "ENABLE_LINK_CLICKS_FOR_FB_STORY_ADS",
+        "ENABLE_REACH_FOR_FB_STORY_ADS",
+        "ADS_TRUST_TIER_1",
+        "CAN_USE_CALL_TO_ACTION_LINK_IMPORT_EXPORT",
+        "ADS_INSTREAM_VIDEO_ENABLE_SLIDE_SHOW",
+        "ALLOW_INSTREAM_VIDEOS_PLACEMENT_ONLY_IN_VV_REACH_AND_FREQUENCY",
+        "ENABLE_MOBILE_APP_INSTALLS_FOR_FB_STORY_ADS",
+        "ENABLE_LEAD_GEN_FOR_FB_STORY_ADS",
+        "CAN_USE_FB_MKT_PLACE_POSITION_IN_REACH",
+        "CAN_USE_FB_MKT_PLACE_POSITION_IN_VIDEO_VIEW",
+        "CAN_USE_FB_MKT_PLACE_POSITION_IN_STORE_VISIT",
+        "ENABLE_MOBILE_APP_ENGAGEMENT_FOR_FB_STORY_ADS",
+        "CAN_USE_FB_MKT_PLACE_POSITION_IN_BRAND_AWARENESS",
+        "CAN_USE_FB_MKT_PLACE_POSITION_IN_APP_INSTALLS",
+        "CAN_USE_FB_MKT_PLACE_POSITION_IN_LEAD_GENERATION",
+        "CAN_USE_FB_MKT_PLACE_POSITION_IN_MESSAGE",
+        "CAN_USE_FB_MKT_PLACE_POSITION_IN_PAGE_LIKE",
+        "CAN_USE_FB_MKT_PLACE_POSITION_IN_POST_ENGAGEMENT",
+        "RF_ALLOW_MARKETPLACE_ACCOUNT",
+        "RF_ALLOW_SEARCH_ACCOUNT",
+        "IX_COLLECTION_ENABLED_FOR_BAO_AND_REACH",
+        "ADS_BM_REQUIREMENTS_OCT_15_RELEASE",
+        "ENABLE_POST_ENGAGEMENT_FOR_FB_STORY",
+        "ENBABLE_CATALOG_SALES_FOR_FB_STORY",
+        "CAN_USE_WHATSAPP_DESTINATION_ON_LINK_CLICKS_AND_CONVERSIONS",
+        "CAN_USE_WHATSAPP_DESTINATION_ON_CONVERSIONS",
+        "IS_IN_IG_EXISTING_POST_CTA_DEFAULTING_EXPERIMENT",
+        "IS_IN_SHORT_WA_LINK_CTWA_UNCONV_TRAFFIC_EXPERIMENT",
+        "IS_IN_ODAX_EXPERIENCE",
+        "IS_IN_REACH_BRAND_AWARENESS_WHATSAPP_L1_DESTINATION_EXPERIMENT",
+        "IS_IN_VIDEO_VIEWS_WHATSAPP_L1_DESTINATION_EXPERIMENT",
+        "IS_IN_WHATSAPP_DESTINATION_DEFAULTING_EXPERIMENT",
+        "CAN_USE_MARKETPLACE_DESKTOP",
+        "ADS_MERCHANT_OVERLAYS_DEPRECATION",
+        "CONNECTIONS_DEPRECATION_V2",
+        "CAN_SEE_HEC_AM_FLOW",
+        "CAN_SEE_POLITICAL_FLOW",
+        "ADS_INSTREAM_PLACEMENT_CATALOG_SALES",
+        "ENABLE_CONVERSIONS_FOR_FB_GROUP_TAB_ADS",
+        "ENABLE_LINK_CLICK_FOR_FB_GROUP_TAB_ADS",
+        "ENABLE_REACH_FOR_FB_GROUP_TAB_ADS",
+        "CAN_USE_CONVERSATIONS_OPTIMIZATION",
+        "ENABLE_THRUPLAY_OPTIMIZATION_MESSENGER_STORY_ADS",
+        "CAN_USE_IG_STORY_POLLS_PAC_CREATION",
+        "IOS14_CEO_CAMPAIGN_CREATION",
+        "DIGITAL_CIRCULAR_ADS",
+        "CAN_SEE_SAFR_V3_FLOW",
+        "CAN_USE_FB_REELS_POSITION",
+        "CAN_USE_ADS_ON_FB_REELS_POSITION",
+        "CAN_USE_FB_REELS_AUTO_PLACEMENT",
+        "ENABLE_FB_REELS_CREATION_PAC_ADS",
+        "ENABLE_FB_REELS_CREATION_DCO_ADS",
+        "ENABLE_FB_REELS_POSTLOOP_CREATION_DCO_ADS",
+        "ENABLE_FB_REELS_POSTLOOP_CREATION_PAC_ADS",
+        "RF_CPA_BILLING_DEPRECATION_PHASE_2",
+        "ENABLE_APP_INSTALL_CUSTOM_PRODUCT_PAGES",
+        "ADS_RF_FB_REELS_PLACEMENT",
+        "REELS_DM_ADS_ENABLE_REACH_AND_FREQUENCY"
+      ]
+    },
+    "accessible_pages": [
+      {
+        "id": "948489798358833",
+        "name": "Max Satiro",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE",
+          "VIEW_MONETIZATION_INSIGHTS"
+        ]
+      },
+      {
+        "id": "774556015748718",
+        "name": "Lucas Felix",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "646469515216107",
+        "name": "CASA E CIA",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE",
+          "VIEW_MONETIZATION_INSIGHTS"
+        ]
+      },
+      {
+        "id": "533322549871983",
+        "name": "Tríade Academia",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "297643463442742",
+        "name": "Grupo Rugido",
+        "access_token": "[REDACTED]",
+        "instagram_business_account": {
+          "id": "17841409416640595",
+          "username": "gruporugido"
+        },
+        "connected_instagram_account": {
+          "id": "17841409416640595",
+          "username": "gruporugido"
+        },
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE_LEADS",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "165430986645998",
+        "name": "Academia de Natação de Parauapebas",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "113850801796505",
+        "name": "Buteco bar premium",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE",
+          "VIEW_MONETIZATION_INSIGHTS"
+        ]
+      },
+      {
+        "id": "118994831173895",
+        "name": "Mansão Maromba Pará",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "102077222853970",
+        "name": "Pagina pra anda",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "100994649568973",
+        "name": "Página 02 ",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "104659475796582",
+        "name": "Carolina Cavalcanti",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "110290388547378",
+        "name": "Karibe Presentes",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "103163429267612",
+        "name": "Tyson boxe",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "102942989277325",
+        "name": "Fontana Locações",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "112535371591156",
+        "name": "Karibe Presentes",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "109286258586486",
+        "name": "Grupo Rugido",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "102898675881980",
+        "name": "Lucas Félix",
+        "access_token": "[REDACTED]",
+        "instagram_business_account": {
+          "id": "17841405743616545",
+          "username": "lucaslfelix"
+        },
+        "connected_instagram_account": {
+          "id": "17841405743616545",
+          "username": "lucaslfelix"
+        },
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE",
+          "MANAGE_LEADS"
+        ]
+      },
+      {
+        "id": "105376072169960",
+        "name": "Douglas Silva",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "113616557996858",
+        "name": "Isaque lev1",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE",
+          "MANAGE_LEADS",
+          "VIEW_MONETIZATION_INSIGHTS"
+        ]
+      },
+      {
+        "id": "461599237344638",
+        "name": "Christiano Wagner",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE",
+          "VIEW_MONETIZATION_INSIGHTS"
+        ]
+      },
+      {
+        "id": "2031124630452247",
+        "name": "Instituto Impulso",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT"
+        ]
+      },
+      {
+        "id": "641266869369568",
+        "name": "Clínica Oral Saúde",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "102891275277931",
+        "name": "Inova Raul",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "1024117514273507",
+        "name": "Sinticlepemp",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "1580662565291698",
+        "name": "Center Cidade Nova",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "592160494299025",
+        "name": "Hidrogyn",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE",
+          "MANAGE_LEADS"
+        ]
+      },
+      {
+        "id": "103975724778263",
+        "name": "jackmarianoconfeitaria",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "103351423193786",
+        "name": "Supermercados Verdurão",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "106572517702830",
+        "name": "Jack Mariano confeitaria",
+        "access_token": "[REDACTED]",
+        "instagram_business_account": {
+          "id": "17841401172060984",
+          "username": "jackmarianoconfeitaria_peba"
+        },
+        "connected_instagram_account": {
+          "id": "17841401172060984",
+          "username": "jackmarianoconfeitaria_peba"
+        },
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE",
+          "VIEW_MONETIZATION_INSIGHTS"
+        ]
+      },
+      {
+        "id": "846259255521056",
+        "name": "Jack Mariano BOLOS Gourmet",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "2146827128909457",
+        "name": "WM",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "MODERATE",
+          "MESSAGING",
+          "ANALYZE",
+          "ADVERTISE",
+          "CREATE_CONTENT",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "101117064656834",
+        "name": "Centro Olímpico Tyson Boxe",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE"
+        ]
+      },
+      {
+        "id": "1431723420455084",
+        "name": "Metamorfose Filmes",
+        "access_token": "[REDACTED]",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE",
+          "VIEW_MONETIZATION_INSIGHTS"
+        ]
+      },
+      {
+        "id": "455184828016377",
+        "name": "Art & Sabor Confeitaria",
+        "access_token": "[REDACTED]",
+        "instagram_business_account": {
+          "id": "17841400912494238",
+          "username": "artesabor.parauapebas"
+        },
+        "connected_instagram_account": {
+          "id": "17841400912494238",
+          "username": "artesabor.parauapebas"
+        },
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE"
+        ]
+      }
+    ],
+    "chosen_page": {
+      "id": "948489798358833",
+      "name": "Max Satiro",
+      "link": "https://www.facebook.com/948489798358833",
+      "is_published": true,
+      "can_post": false
+    },
+    "page_access_token_debug": {
+      "app_id": "4436746306549284",
+      "type": "PAGE",
+      "application": "CLI Codex",
+      "data_access_expires_at": 1787961828,
+      "expires_at": 0,
+      "is_valid": true,
+      "scopes": [
+        "pages_show_list",
+        "ads_management",
+        "ads_read",
+        "business_management",
+        "pages_read_engagement",
+        "pages_manage_ads",
+        "public_profile"
+      ]
+    },
+    "chosen_page_via_page_token": {
+      "id": "948489798358833",
+      "name": "Max Satiro"
+    },
+    "instagram": {
+      "informed_id": "17841400419788429",
+      "page_connected_instagram": null,
+      "page_access_token_available": true,
+      "direct_lookup": null,
+      "usable": false
+    },
+    "pixels": [
+      {
+        "id": "1523046889398200",
+        "name": "[MAX SATIRO]",
+        "last_fired_time": "2026-05-30T15:17:42-0300",
+        "is_created_by_business": true
+      }
+    ],
+    "selected_pixel": {
+      "id": "1523046889398200",
+      "name": "[MAX SATIRO]",
+      "last_fired_time": "2026-05-30T15:17:42-0300",
+      "is_created_by_business": true
+    },
+    "videos": [
+      {
+        "file": "V1.mp4",
+        "video_id": "846333488071252",
+        "status": {
+          "video_status": "ready",
+          "uploading_phase": {
+            "status": "complete"
+          },
+          "processing_phase": {
+            "status": "complete"
+          },
+          "publishing_phase": {
+            "status": "complete",
+            "publish_status": "published",
+            "publish_time": "2026-05-30T22:55:45+0000"
+          }
+        },
+        "thumbnail_uri": "https://scontent.fcks6-1.fna.fbcdn.net/v/t15.5256-10/709769566_35914366914878498_6019638855125555253_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3495b&_nc_eui2=AeF-8H4MZOV4Bseo0DfJOI1U43TlYjRiOy_jdOViNGI7L25GamzAMtT3fMKqkmxPWDbbsmf3KifIWoHZZVtVfrIc&_nc_ohc=yy30GvNHoIAQ7kNvwGoa-x2&_nc_oc=AdokAOrXh3nXN5xVBFu30whPe6swEoH87bfGqLN3IxbvHcvsBANw90JTi83pjZ6tnMY&_nc_zt=23&_nc_ht=scontent.fcks6-1.fna&edm=APRAPSkEAAAA&_nc_gid=jHPqBsDFkMhl8QlvulX-2A&_nc_tpa=Q5bMBQFFHLI8_yPsVfrMB3Qd7fUATzhournUMYNB9aqf9WXy_Z2fvNyOTPtjaKdvyOg0R8MkzBIBAQ-isg&oh=00_Af8ldJ6TLesCHsahqUi2q2YJ54TIa9Rae9ZhtRJ9qHa3FA&oe=6A21532B",
+        "thumbnail_image_hash": null
+      },
+      {
+        "file": "V2.mp4",
+        "video_id": "1484702955957689",
+        "status": {
+          "video_status": "ready",
+          "uploading_phase": {
+            "status": "complete"
+          },
+          "processing_phase": {
+            "status": "complete"
+          },
+          "publishing_phase": {
+            "status": "complete",
+            "publish_status": "published",
+            "publish_time": "2026-05-30T22:54:29+0000"
+          }
+        },
+        "thumbnail_uri": "https://scontent.fcks6-1.fna.fbcdn.net/v/t15.5256-10/710478486_1430028865550490_3455514961378175236_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3495b&_nc_eui2=AeFHsOBKoi1AYTf_7-Bfz4LoiH41Tl9qBwuIfjVOX2oHCzh9bxfRXYYOvTlwalb7SwJOnX2Kpdh28sQYMDHMuR5T&_nc_ohc=Pz510Or57WYQ7kNvwEAaOV4&_nc_oc=Ador7W1nn6NfyMGvjfsKWyNdS2Ra2xhgqSs7DqDrXcbWNla_Z66rx40SH55cQtep8ko&_nc_zt=23&_nc_ht=scontent.fcks6-1.fna&edm=APRAPSkEAAAA&_nc_gid=CXWsEg36Sjvj0z49_hhyrw&_nc_tpa=Q5bMBQHeMHQytHTWcvPEnUpid48SWCWwjHtwe-Xx3aQ6IrvUTmJCc5c3oDPkuuuJffoUk4wmQaA-yKZ_Lg&oh=00_Af8ZcS0-S4OrI9yEm3onV8HngJ1Lc40R275lcKgSVtAfpA&oe=6A2154BA",
+        "thumbnail_image_hash": null
+      },
+      {
+        "file": "V3.mp4",
+        "video_id": "868386832966948",
+        "status": {
+          "video_status": "ready",
+          "uploading_phase": {
+            "status": "complete"
+          },
+          "processing_phase": {
+            "status": "complete"
+          },
+          "publishing_phase": {
+            "status": "complete",
+            "publish_status": "published",
+            "publish_time": "2026-05-30T22:56:02+0000"
+          }
+        },
+        "thumbnail_uri": "https://scontent.fcks6-1.fna.fbcdn.net/v/t15.5256-10/710423423_1732366161089156_7629948429621183808_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=e3495b&_nc_eui2=AeHWjL0bUjvpSvxtmS2I0Ek1v2Trt9ImxBm_ZOu30ibEGb04B85TFvRU1X3kKwHKgTy5AgRpwjOu_bZp9W73P6aH&_nc_ohc=rH47qKUj6TEQ7kNvwF8cO5d&_nc_oc=AdpDYBAhCvpEmFP8KOO6EKbRIIEKoscxkiIJ0_99HCSB868QRbZC1NQI95st3NFb3EY&_nc_zt=23&_nc_ht=scontent.fcks6-1.fna&edm=APRAPSkEAAAA&_nc_gid=i6iP_wN36fXSQ8b4tMCoRA&_nc_tpa=Q5bMBQFk2DYWFr4vXu0E2HJOnXz2vISoJRYlUKqAXz_IU6PENgcBSpprEdPuQDAkZ-wanaRiAwyftNUnfw&oh=00_Af_PvbkNkgFfp7TE_3J6Y5ZYm4k4CKpalhXK8zVhln5Qlg&oe=6A216BAF",
+        "thumbnail_image_hash": null
+      },
+      {
+        "file": "V4.mp4",
+        "video_id": "937435685954230",
+        "status": {
+          "video_status": "ready",
+          "uploading_phase": {
+            "status": "complete"
+          },
+          "processing_phase": {
+            "status": "complete"
+          },
+          "publishing_phase": {
+            "status": "complete",
+            "publish_status": "published",
+            "publish_time": "2026-05-30T22:56:22+0000"
+          }
+        },
+        "thumbnail_uri": "https://scontent.fcks6-1.fna.fbcdn.net/v/t15.5256-10/711309292_4424855054423722_7434267949142101113_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3495b&_nc_eui2=AeEajCi6hTC2kaLtTGxxY-praj8MwGlO64JqPwzAaU7rgldSYdPLQ9EoGuTjSa3oOZuSlQfj62y5mr_a0xaYCmDp&_nc_ohc=ec0wMidSdloQ7kNvwG8fXzX&_nc_oc=AdpZRXTIB-MEUV9z895YHju5LOlsrfRilk3J-y9_3QmxBVR6p1o8qzGNekf4o2YZ3RU&_nc_zt=23&_nc_ht=scontent.fcks6-1.fna&edm=APRAPSkEAAAA&_nc_gid=yc7VcVYONo5OJp8kBxBcsQ&_nc_tpa=Q5bMBQGGcKEVuDunOZefiv5R1rDDvzYbWN_Hc6Q3GeOzePG26EDVH6lLkmwRTSRDgBj7DSDj2cGVzDKr5Q&oh=00_Af_AjXjqsx_VUaBobtOSWlahUHw2dXRxdy0jBTKqEIGNgg&oe=6A215817",
+        "thumbnail_image_hash": null
+      },
+      {
+        "file": "V5.mp4",
+        "video_id": "1718805619474570",
+        "status": {
+          "video_status": "ready",
+          "uploading_phase": {
+            "status": "complete"
+          },
+          "processing_phase": {
+            "status": "complete"
+          },
+          "publishing_phase": {
+            "status": "complete",
+            "publish_status": "published",
+            "publish_time": "2026-05-30T22:56:43+0000"
+          }
+        },
+        "thumbnail_uri": "https://scontent.fcks6-1.fna.fbcdn.net/v/t15.5256-10/709548374_889538176800530_2031877622785225232_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3495b&_nc_eui2=AeHg48NFil7uEWf9-K1qd_cJqoLfnykNQ2Sqgt-fKQ1DZMNXaJZMlHQpdv2P0mSBZrbInfXJ_HKkBnXY9voow6ZI&_nc_ohc=Xyx3Syp2WZAQ7kNvwGBVwzI&_nc_oc=Adr_O8qIIhECB1cGG4eUG7rvNsmy4VzpLC9kaDCZYbod2Pm5Jl04V_BUBr3lgQkGehw&_nc_zt=23&_nc_ht=scontent.fcks6-1.fna&edm=APRAPSkEAAAA&_nc_gid=EZc0_TcG3bqjMybw7NpHTw&_nc_tpa=Q5bMBQHtYv8Y-qD2kjLz0NwLko97wOHczpq5y_7ppl6-6HmvUlr_xQ4UN6MgYvnc_n3c-mR42B7-iGtp0Q&oh=00_Af-6193owW8s594grMH-11rZ3Q6WM5wB8_tZ-NFB7Ylx4Q&oe=6A2147C2",
+        "thumbnail_image_hash": null
+      },
+      {
+        "file": "V6.mp4",
+        "video_id": "1504262648062180",
+        "status": {
+          "video_status": "ready",
+          "uploading_phase": {
+            "status": "complete"
+          },
+          "processing_phase": {
+            "status": "complete"
+          },
+          "publishing_phase": {
+            "status": "complete",
+            "publish_status": "published",
+            "publish_time": "2026-05-30T22:59:53+0000"
+          }
+        },
+        "thumbnail_uri": "https://scontent.fcks6-1.fna.fbcdn.net/v/t15.5256-10/709782721_973480048757352_3350661493201286304_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3495b&_nc_eui2=AeG-kua7JcO11vXxWF600jnrr-LAC0ti9Kav4sALS2L0pmWN7nL0xQHvqnRLg9enq81lsJ93ZwUjdokmR4ZO6UIF&_nc_ohc=m1GSzSnBT-wQ7kNvwHvRnd2&_nc_oc=AdqJ_YZti9RLFBW0uPVJ-IDz6glETItSaJxaghNoOA0dwPT3C9ODVo-qM2Up841W2Sg&_nc_zt=23&_nc_ht=scontent.fcks6-1.fna&edm=APRAPSkEAAAA&_nc_gid=w0kcTXX9kTFaVxKOOBhtCA&_nc_tpa=Q5bMBQEJW7okrHQrHkllpebHd2EDoq22Fp0s5BrSAipw84OwoyU7atI418pzP5zSA4p-oezmDnEErp8dTg&oh=00_Af-nPKEpM-T6LeHnpVsHqws1MTX82wCIN_umNDYSD-nHDA&oe=6A2140A9",
+        "thumbnail_image_hash": null
+      },
+      {
+        "file": "V7.mp4",
+        "video_id": "1261933539083641",
+        "status": {
+          "video_status": "ready",
+          "uploading_phase": {
+            "status": "complete"
+          },
+          "processing_phase": {
+            "status": "complete"
+          },
+          "publishing_phase": {
+            "status": "complete",
+            "publish_status": "published",
+            "publish_time": "2026-05-30T22:57:25+0000"
+          }
+        },
+        "thumbnail_uri": "https://scontent.fcks6-1.fna.fbcdn.net/v/t15.5256-10/711309255_1879946426017301_3911139316638979353_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e3495b&_nc_eui2=AeFhTs-4FA-xbTaGPjNrUyuhQEdNY8Vtw61AR01jxW3DrWiW5KdHwzlNJtTx25YTLkktohfyaey6AgWe4TPXUgJz&_nc_ohc=J7DaZnJvan8Q7kNvwEYuplE&_nc_oc=Adpt_yhD0O0_GOqQrGkiCsxj63XdZd3KWRAfdioT9led1IsSlKtYHTfkwz5ELRiy84c&_nc_zt=23&_nc_ht=scontent.fcks6-1.fna&edm=APRAPSkEAAAA&_nc_gid=vEfPBYuUnPAog0jFrp4dQA&_nc_tpa=Q5bMBQHE9uhDWaSlemsh8KPc4ImQaWbw4xqZXOLCkTnciOyCAkFOWtvyBv8TRbnY50kd5av2Bwsnlbh7ig&oh=00_Af8W8ixujWWul5Uba2II5whqJHrblZ2Pvs2xs-R5xq7Hag&oe=6A215BB7",
+        "thumbnail_image_hash": null
+      },
+      {
+        "file": "V8.mp4",
+        "video_id": "986007237469057",
+        "status": {
+          "video_status": "ready",
+          "uploading_phase": {
+            "status": "complete"
+          },
+          "processing_phase": {
+            "status": "complete"
+          },
+          "publishing_phase": {
+            "status": "complete",
+            "publish_status": "published",
+            "publish_time": "2026-05-30T22:57:35+0000"
+          }
+        },
+        "thumbnail_uri": "https://scontent.fcks6-1.fna.fbcdn.net/v/t15.5256-10/712266738_4140183839532190_2893733267691253270_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3495b&_nc_eui2=AeGMm0imIYbAe64vuwSQN5lKJAEPOtAHCY0kAQ860AcJjftfhMv8ghr8u0lRw--WizHMzBShJMtMYx9ywh9HohOY&_nc_ohc=E0BeE0MNwosQ7kNvwG7D2Cd&_nc_oc=AdpDmq9AyagyLv8_h4VdLRAYpBeJ3GfFYKgfzJqxlNpyJKze-t117GKi8_1U5Y4ZuCU&_nc_zt=23&_nc_ht=scontent.fcks6-1.fna&edm=APRAPSkEAAAA&_nc_gid=-SgHx6cBUMjShYKF98PqzA&_nc_tpa=Q5bMBQEe4cXK-aiwdrbecFlv1unwBrhccy7NzynHpq1QVv5BqLYFE4NtteSwr_EVQ6i2C1Vz8VUtFu2dOA&oh=00_Af_e-bIn0cTJ7RYlws3wT9lvhXZ_WpjozqmK3xRA6LKbMA&oe=6A216AD1",
+        "thumbnail_image_hash": null
+      },
+      {
+        "file": "V9.mp4",
+        "video_id": "1310196187324443",
+        "status": {
+          "video_status": "ready",
+          "uploading_phase": {
+            "status": "complete"
+          },
+          "processing_phase": {
+            "status": "complete"
+          },
+          "publishing_phase": {
+            "status": "complete",
+            "publish_status": "published",
+            "publish_time": "2026-05-30T22:57:58+0000"
+          }
+        },
+        "thumbnail_uri": "https://scontent.fcks6-1.fna.fbcdn.net/v/t15.5256-10/711546239_1785991752776303_8084055101189213339_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3495b&_nc_eui2=AeGd2b0ZyP1AwkjSShXY0iVbl_jH-Fe9ZgSX-Mf4V71mBKETFuNoSv_aW5SNcO0Fb8jioldVaHyJT4QkIZShN9Gq&_nc_ohc=zUQN0PlGMssQ7kNvwGy4IVc&_nc_oc=Adq-MgCbbKvwF0gokWxfUEMj1QGyf3fKcSjAR-To6Pr61-A4U-MxpbR5RSidCTYMuAc&_nc_zt=23&_nc_ht=scontent.fcks6-1.fna&edm=APRAPSkEAAAA&_nc_gid=DZt91wlEpxc5y06m0wfZLA&_nc_tpa=Q5bMBQEkCo79MBjTuB6EHIKSZBD3DJ1AqBmtaMxpkBoGtMbsJXaScGga4_qaj0Ed5MmX_nxLeCBd63IicA&oh=00_Af9hIX9_lOa5ps3qpblUw9DxkP_7R406CFbWTdQUJYPQmw&oe=6A216BD4",
+        "thumbnail_image_hash": null
+      }
+    ],
+    "creative_validation": null
+  },
+  "blockers": [
+    "Permissoes ausentes no token: instagram_basic",
+    "Token sem instagram_basic; a Meta exige essa permissao para ler instagram_business_account da Pagina.",
+    "A Pagina nao retornou instagram_business_account/connected_instagram_account. Corrigir vinculo do Instagram na Pagina/BM ou gerar token com instagram_basic.",
+    "Video V1.mp4 sem thumbnail_image_hash propria. Extraia uma imagem local, suba em /act_822181580904755/adimages e use image_hash em video_data.",
+    "Video V2.mp4 sem thumbnail_image_hash propria. Extraia uma imagem local, suba em /act_822181580904755/adimages e use image_hash em video_data.",
+    "Video V3.mp4 sem thumbnail_image_hash propria. Extraia uma imagem local, suba em /act_822181580904755/adimages e use image_hash em video_data.",
+    "Video V4.mp4 sem thumbnail_image_hash propria. Extraia uma imagem local, suba em /act_822181580904755/adimages e use image_hash em video_data.",
+    "Video V5.mp4 sem thumbnail_image_hash propria. Extraia uma imagem local, suba em /act_822181580904755/adimages e use image_hash em video_data.",
+    "Video V6.mp4 sem thumbnail_image_hash propria. Extraia uma imagem local, suba em /act_822181580904755/adimages e use image_hash em video_data.",
+    "Video V7.mp4 sem thumbnail_image_hash propria. Extraia uma imagem local, suba em /act_822181580904755/adimages e use image_hash em video_data.",
+    "Video V8.mp4 sem thumbnail_image_hash propria. Extraia uma imagem local, suba em /act_822181580904755/adimages e use image_hash em video_data.",
+    "Video V9.mp4 sem thumbnail_image_hash propria. Extraia uma imagem local, suba em /act_822181580904755/adimages e use image_hash em video_data."
+  ],
+  "warnings": [],
+  "ready_to_create": false
+}

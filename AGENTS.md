@@ -42,11 +42,14 @@ Este projeto veio de um fluxo Claude Code. As instrucoes reaproveitaveis ficam e
 
 - `.claude/skills/`
 - `.claude/commands/`
+- `.agents/skills/` — ponte nativa para OpenClaw
 
 As skills tambem foram espelhadas no formato nativo do Codex em `~/.codex/skills/rugido-*`.
 Em novas sessoes do Codex, prefira essas skills nativas quando elas aparecerem na lista de skills disponiveis. A pasta `.claude/skills/` fica como origem historica e referencia do projeto.
 
 Quando o usuario pedir algo que parece coberto por uma dessas skills ou commands, use a skill nativa `rugido-*` correspondente ou leia o arquivo local em `.claude/skills/`. Nao execute nada destrutivo sem necessidade.
+
+Para OpenClaw, use primeiro `.agents/skills/grupo-rugido/SKILL.md`. Essa skill nao duplica as antigas; ela roteia o agente para `AGENTS.md`, `CLAUDE.md`, `_contexto/`, clientes, scripts e `.claude/skills/`.
 
 Skills nativas instaladas:
 
@@ -81,6 +84,11 @@ npm run sync:ads
 O script principal e `scripts/meta-ads-insights.js`.
 Ele le variaveis do `.env` na raiz do projeto e salva JSON em `dados/`.
 
+Script especifico do projeto Max Satiro / Socio Estrategico:
+
+- `scripts/meta-socio-estrategico-live-leads.js` — valida e cria estrutura pausada de campanha de leads para a live semanal.
+- Antes de usar, leia `clientes/max-satiro/socio-estrategico/funil-live-semanal/contexto/memoria-operacional__2026-05-30.md`.
+
 ## Variaveis de ambiente
 
 Use `.env.example` como referencia. Nunca mostre, copie ou versione valores reais do `.env`.
@@ -106,6 +114,7 @@ Principais variaveis:
 - Nao apague arquivos de memoria ou conteudo operacional.
 - Antes de criar ativos comerciais, procure templates em `templates/`.
 - Antes de mexer em dados, veja `dados/README.md`.
+- Antes de mexer em Max Satiro / Socio Estrategico, leia `clientes/max-satiro/socio-estrategico/funil-live-semanal/README.md` e a memoria operacional mais recente do projeto.
 - Se o usuario corrigir algo que parece regra permanente, pergunte se deve salvar em `_contexto/`.
 - Ao concluir algo repetivel, pergunte se faz sentido transformar em skill local.
 

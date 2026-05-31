@@ -7,6 +7,7 @@
 ## Arquivos Já Importados
 
 - `contexto/HANDOFF__funil-live-semanal-max-satiro.md`
+- `contexto/memoria-operacional__2026-05-30.md`
 - `contexto/briefing-operacional.md`
 - `contexto/checklist-operacao.md`
 - `contexto/envios/README__envio-klebson__2026-05-27.md`
@@ -20,6 +21,8 @@
 - `referencias/originais/socio-estrategico__pagina-live-semanal__original-recebido.html`
 - `referencias/originais/pagina-captura_live-2026-04-02copy_v01__nome-whatsapp.md`
 - `README.md`
+- `referencias/anuncios/ads-max__2026-05-25/` — vídeos, transcrições, manifestos, thumbnails e relatórios Meta API.
+- `scripts/meta-socio-estrategico-live-leads.js` — script de validação/criação pausada via Meta Marketing API.
 
 ## Organização Atual
 
@@ -27,6 +30,8 @@
 - `paginas/assets/max-satiro-atual.jfif` é a foto usada pela página principal.
 - `referencias/` guarda materiais estratégicos para consulta.
 - `referencias/originais/` guarda cópias recebidas sem edição, para comparação e resgate.
+- `referencias/anuncios/` guarda anúncios baixados do Drive, transcrições, copies e assets enviados para Meta.
+- `contexto/memoria-operacional__2026-05-30.md` é a referência mais recente para decisões de campanha, copy, API Meta, e-mail e pendências.
 
 ## Caminhos Originais Do Handoff
 

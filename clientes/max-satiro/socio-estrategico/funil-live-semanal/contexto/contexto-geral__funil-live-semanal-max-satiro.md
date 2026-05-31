@@ -7,6 +7,16 @@ Este documento serve como base de contexto para qualquer pessoa que entrar no pr
 
 A ideia aqui nao e substituir os arquivos tecnicos, roteiros ou paginas. E dar uma leitura clara do que foi combinado, qual e a tese do projeto, qual narrativa deve ser preservada e quais cuidados precisam orientar copy, design, trafego, operacao e vendas.
 
+## Atualizacao Operacional Recente
+
+Depois do handoff inicial, foi criada uma memoria operacional mais completa em:
+
+`contexto/memoria-operacional__2026-05-30.md`
+
+Ela registra as paginas criadas, anuncios baixados do Drive, transcricoes, tentativa de subida via Meta Marketing API, tentativa de MCP/OAuth, bloqueio do app em modo desenvolvimento, copies atuais para configuracao manual, UTM, decisao de publico Ad+ com envolvimento e pendencias do e-mail ActiveCampaign.
+
+Use esse arquivo como referencia mais recente antes de mexer em trafego, copies, e-mail, API ou publicacao da pagina.
+
 ## Resumo Do Projeto
 
 Estamos construindo um funil de live semanal para o Max Satiro, dentro da marca Socio Estrategico.

@@ -1,0 +1,51 @@
+{
+  "uploaded_at": "2026-05-31T01:08:44.427Z",
+  "account_id": "act_822181580904755",
+  "results": [
+    {
+      "file": "V1.mp4",
+      "thumbnail_file": "meta-api/thumbnails/V1.jpg",
+      "image_hash": "13488b4ee0bb2564d6a163066e089d7d"
+    },
+    {
+      "file": "V2.mp4",
+      "thumbnail_file": "meta-api/thumbnails/V2.jpg",
+      "image_hash": "29adace0688b675f36e2c06ae321a45f"
+    },
+    {
+      "file": "V3.mp4",
+      "thumbnail_file": "meta-api/thumbnails/V3.jpg",
+      "image_hash": "63f8a77b99ac4cde587b44753c1c2898"
+    },
+    {
+      "file": "V4.mp4",
+      "thumbnail_file": "meta-api/thumbnails/V4.jpg",
+      "image_hash": "e5adf8a320784fd8acfce04153a623f5"
+    },
+    {
+      "file": "V5.mp4",
+      "thumbnail_file": "meta-api/thumbnails/V5.jpg",
+      "image_hash": "57ca04d87b536edb4552fb4ce4afd06c"
+    },
+    {
+      "file": "V6.mp4",
+      "thumbnail_file": "meta-api/thumbnails/V6.jpg",
+      "image_hash": "a62bea9c820724189f948605c5096cbf"
+    },
+    {
+      "file": "V7.mp4",
+      "thumbnail_file": "meta-api/thumbnails/V7.jpg",
+      "image_hash": "c3642958233774e108d01bfc790f0f68"
+    },
+    {
+      "file": "V8.mp4",
+      "thumbnail_file": "meta-api/thumbnails/V8.jpg",
+      "image_hash": "0000a56fb5d7d0dcdd3a5345cf7dcbf3"
+    },
+    {
+      "file": "V9.mp4",
+      "thumbnail_file": "meta-api/thumbnails/V9.jpg",
+      "image_hash": "bd2d6aa4356c6bc16fd02b350a648a89"
+    }
+  ]
+}

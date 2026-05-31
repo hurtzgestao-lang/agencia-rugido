@@ -7,10 +7,14 @@ Projeto operacional para construir e manter o funil de live/aula gratuita do Max
 - Fase atual: captura para aula gratuita.
 - Primeiro ativo: página de captura com nome, e-mail e WhatsApp.
 - Handoff importado: `contexto/HANDOFF__funil-live-semanal-max-satiro.md`.
+- Memória operacional mais recente: `contexto/memoria-operacional__2026-05-30.md`.
 - Página principal de trabalho: `paginas/socio-estrategico__pagina-live-semanal__v01.html`.
+- Versão visual mais recente criada para revisão: `paginas/socio-estrategico__pagina-live-semanal__p04.html`.
 - Foto atual do Max importada: `paginas/assets/max-satiro-atual.jfif`.
 - HTML original recebido preservado em: `referencias/originais/socio-estrategico__pagina-live-semanal__original-recebido.html`.
 - Pacote recebido registrado em: `contexto/envios/README__envio-klebson__2026-05-27.md`.
+- Anúncios do Max baixados, transcritos e organizados em `referencias/anuncios/ads-max__2026-05-25/`.
+- Tentativa de subida via Meta Marketing API documentada. Bloqueio atual: app Meta em modo desenvolvimento/verificação de empresa.
 
 ## Tese
 
@@ -77,9 +81,9 @@ Usar identidade da Sócio Estratégico, não da Rugido:
 
 ## Próximo Movimento
 
-1. Confirmar data/horário real da live.
-2. Confirmar se a oferta de 12 semanas, R$15.000 e sinal de R$1.000 ainda vale.
-3. Conectar destino do formulário.
-4. Revisar a página com a foto real do Max.
-5. Definir se o funil é só captura da aula ou se já prepara aplicação para o programa.
-6. Publicar via Cloudflare Pages quando aprovado.
+1. Confirmar se `p04` é a página final ou apenas referência.
+2. Conferir se a página publicada em `/live-semanal-v2` bate com a versão aprovada.
+3. Conectar destino do formulário e evento/pixel.
+4. Refazer o e-mail ActiveCampaign com fundo branco, link do grupo e paleta correta do Max.
+5. Subir anúncios manualmente no Ads Manager se a urgência for rodar hoje.
+6. Para voltar à API, usar app público/verificado ou token de app público com permissões corretas.

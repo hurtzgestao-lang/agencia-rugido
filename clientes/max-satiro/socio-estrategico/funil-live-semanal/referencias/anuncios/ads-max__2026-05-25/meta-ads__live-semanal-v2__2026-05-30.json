@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "cliente": "Max Satiro / Socio Estrategico",
+    "projeto": "Live semanal v2",
+    "ad_account_id": "act_822181580904755",
+    "ad_account_name": "Sócio Estratégico",
+    "page_id": "948489798358833",
+    "instagram_actor_id_informado": "17841400419788429",
+    "landing_url": "https://www.socioestrategico.com/live-semanal-v2",
+    "status_planejado": "PAUSED",
+    "objetivo_recomendado": "OUTCOME_TRAFFIC",
+    "optimization_goal": "LINK_CLICKS",
+    "billing_event": "IMPRESSIONS",
+    "publico": {
+      "tipo": "aberto",
+      "pais": "BR",
+      "idade_min": 18,
+      "idade_max": 65,
+      "generos": "todos",
+      "interesses": [],
+      "observacao": "Aberto conforme pedido. Sem interesses, lookalikes ou listas."
+    },
+    "cta_type": "SIGN_UP",
+    "cta_label": "Cadastrar-se",
+    "created_at": "2026-05-30"
+  },
+  "ads": [
+    {
+      "video": "V1.mp4",
+      "ad_name": "MAX-LIVE-V1-OPERACAO-PRESA-NO-DONO",
+      "primary_text": "Tem uma fase em que contratar mais gente nao resolve. A empresa ate cresce, mas cresce pesada, porque as decisoes importantes continuam presas no dono. Na Mesa com o Socio, Max Satiro mostra os bastidores reais de empresas que conseguiram sair da dependencia de uma unica pessoa.",
+      "headline": "Sua empresa cresce, mas ainda depende de voce?",
+      "description": "Entre no grupo e receba o convite da live semanal.",
+      "cta_type": "SIGN_UP"
+    },
+    {
+      "video": "V2.mp4",
+      "ad_name": "MAX-LIVE-V2-BONS-SOCIOS-BONS-CONSELHEIROS",
+      "primary_text": "As empresas que mais cresceram nos ultimos anos tem algo em comum: bons socios e bons conselheiros. A Mesa com o Socio e uma live semanal com Max Satiro para discutir as decisoes que destravam crescimento na pratica.",
+      "headline": "Toda quinta, meio-dia: Mesa com o Socio",
+      "description": "Cadastre-se para receber o convite.",
+      "cta_type": "SIGN_UP"
+    },
+    {
+      "video": "V3.mp4",
+      "ad_name": "MAX-LIVE-V3-O-QUE-E-MESA-COM-O-SOCIO",
+      "primary_text": "A Mesa com o Socio e uma live ao vivo, toda quinta-feira ao meio-dia, onde Max Satiro compartilha decisoes reais das empresas que mais crescem no Brasil e abre espaco para perguntas e mentoria ao vivo.",
+      "headline": "Participe da Mesa com o Socio",
+      "description": "Conteudo, bastidor e perguntas ao vivo.",
+      "cta_type": "SIGN_UP"
+    },
+    {
+      "video": "V4.mp4",
+      "ad_name": "MAX-LIVE-V4-SEM-TEORIA-DE-PALCO",
+      "primary_text": "A internet esta cheia de gente ensinando empresa a crescer sem nunca ter feito isso acontecer. Na Mesa com o Socio, Max Satiro fala sobre decisoes reais de aquisicao, margem, time e escala. Sem teoria de palco.",
+      "headline": "O que trava ou destrava uma empresa fica na mesa",
+      "description": "Entre no grupo para receber o convite da live.",
+      "cta_type": "SIGN_UP"
+    },
+    {
+      "video": "V5.mp4",
+      "ad_name": "MAX-LIVE-V5-PASSOU-DOS-100K-E-PLATOU",
+      "primary_text": "Se sua empresa ja passou dos R$100 mil de faturamento e parece que esta girando no mesmo lugar, talvez o problema nao seja vender mais. Talvez o modelo que te trouxe ate aqui nao seja o modelo que vai te levar ao proximo nivel.",
+      "headline": "Sua empresa passou dos R$100 mil e travou?",
+      "description": "Veja a live semanal com Max Satiro.",
+      "cta_type": "SIGN_UP"
+    },
+    {
+      "video": "V6.mp4",
+      "ad_name": "MAX-LIVE-V6-FATURAMENTO-GIRANDO-NO-MESMO-LUGAR",
+      "primary_text": "Se o faturamento esta girando no mesmo lugar, presta atencao: o gargalo pode nao estar em vender mais, mas no modelo de crescimento. Max Satiro mostra as decisoes que fazem empresas sairem do plato.",
+      "headline": "O problema pode nao ser venda",
+      "description": "Cadastre-se para a Mesa com o Socio.",
+      "cta_type": "SIGN_UP"
+    },
+    {
+      "video": "V7.mp4",
+      "ad_name": "MAX-LIVE-V7-RECEITA-ESTRATEGIA-GESTAO-OPERACAO",
+      "primary_text": "Ja pensou discutir receita, estrategia, gestao e operacao toda semana com um conselheiro olhando para a sua empresa? Essa e a proposta da Mesa com o Socio: conteudo direto, perguntas e discussoes ao vivo.",
+      "headline": "Receita, estrategia, gestao e operacao",
+      "description": "Toda quinta-feira, meio-dia.",
+      "cta_type": "SIGN_UP"
+    },
+    {
+      "video": "V8.mp4",
+      "ad_name": "MAX-LIVE-V8-FATURA-MAIS-SOBRA-MENOS",
+      "primary_text": "Tem empresario comemorando faturamento maior e dormindo pior. A empresa cresce, a folha cresce, as ferramentas crescem, mas o lucro continua igual. Na Mesa com o Socio, Max Satiro mostra decisoes de margem, gestao e escala que quase nunca aparecem na internet.",
+      "headline": "Fatura mais e sobra menos?",
+      "description": "Entre no grupo e receba o convite.",
+      "cta_type": "SIGN_UP"
+    },
+    {
+      "video": "V9.mp4",
+      "ad_name": "MAX-LIVE-V9-CONCORRENTE-CRESCENDO-MAIS",
+      "primary_text": "Voce ja olhou para um concorrente pior que voce e pensou: como ele esta crescendo mais? Talvez a diferenca nao esteja no esforco, mas nas decisoes e acessos que ele tem. Na Mesa com o Socio, Max Satiro compartilha bastidores reais toda semana.",
+      "headline": "Por que seu concorrente cresce mais?",
+      "description": "Cadastre-se para a live semanal.",
+      "cta_type": "SIGN_UP"
+    }
+  ]
+}

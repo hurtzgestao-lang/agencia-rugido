@@ -1,0 +1,980 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aula ao vivo | Max Satiro</title>
+  <meta name="description" content="Aula gratuita ao vivo com Max Satiro para donos de empresas de serviço que querem crescer sem depender do próprio tempo.">
+  <style>
+    :root {
+      --page: #080706;
+      --shell: #0f0e0c;
+      --panel: #171812;
+      --cream: #efedea;
+      --soft: rgba(239, 237, 234, .72);
+      --muted: rgba(239, 237, 234, .5);
+      --green: #35c12e;
+      --gold: #c7aa63;
+      --line: rgba(239, 237, 234, .1);
+      --line-green: rgba(53, 193, 46, .28);
+      --shadow: 0 30px 88px rgba(0, 0, 0, .44);
+      --sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --serif: Georgia, "Times New Roman", serif;
+      --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-width: 320px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      overflow-x: hidden;
+      color: var(--cream);
+      background: var(--page);
+      font-family: var(--sans);
+      letter-spacing: 0;
+    }
+
+    input,
+    button {
+      font: inherit;
+    }
+
+    .page {
+      background:
+        radial-gradient(circle at 73% 12%, rgba(53, 193, 46, .16), transparent 28%),
+        radial-gradient(circle at 18% 20%, rgba(199, 170, 99, .09), transparent 25%),
+        linear-gradient(180deg, #0c0b08, var(--page) 54%, #090807);
+    }
+
+    .wrap {
+      width: min(1200px, calc(100% - 48px));
+      margin: 0 auto;
+    }
+
+    .hero,
+    .bio {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+    }
+
+    .hero {
+      display: grid;
+      min-height: 100svh;
+      align-items: center;
+      background:
+        linear-gradient(90deg, rgba(53, 193, 46, .13), transparent 34%),
+        linear-gradient(180deg, rgba(232, 222, 196, .08), transparent 42%),
+        linear-gradient(145deg, #10140d 0%, #080706 58%, #111009 100%);
+    }
+
+    .hero::before,
+    .bio::before {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      content: "";
+      background:
+        linear-gradient(90deg, rgba(239, 237, 234, .048) 0 1px, transparent 1px 100%),
+        linear-gradient(180deg, rgba(239, 237, 234, .036) 0 1px, transparent 1px 100%);
+      background-size: 92px 92px;
+      opacity: .24;
+      mask-image: linear-gradient(180deg, #000, transparent 88%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(360px, 430px);
+      gap: 58px;
+      align-items: center;
+      padding: 70px 0;
+    }
+
+    .event {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 38px;
+      margin-bottom: 22px;
+      padding: 9px 14px;
+      border: 1px solid var(--line-green);
+      border-radius: 999px;
+      color: var(--cream);
+      background: rgba(15, 14, 12, .72);
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 900;
+      line-height: 1;
+      text-transform: uppercase;
+      white-space: nowrap;
+      backdrop-filter: blur(12px);
+    }
+
+    .event::before {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 18px rgba(53, 193, 46, .58);
+      content: "";
+      flex: 0 0 auto;
+    }
+
+    .kicker,
+    .microcopy,
+    .role {
+      font-family: var(--mono);
+      text-transform: uppercase;
+    }
+
+    .kicker {
+      margin: 0 0 14px;
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 900;
+      line-height: 1.2;
+    }
+
+    h1,
+    h2,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      max-width: 720px;
+      margin-bottom: 0;
+      color: #fff;
+      font-family: var(--serif);
+      font-size: 76px;
+      font-weight: 500;
+      line-height: .94;
+      letter-spacing: 0;
+    }
+
+    h1 span,
+    .accent {
+      color: var(--gold);
+      font-style: italic;
+    }
+
+    .lead {
+      max-width: 610px;
+      margin: 20px 0 0;
+      color: var(--soft);
+      font-size: 21px;
+      font-weight: 620;
+      line-height: 1.42;
+    }
+
+    .points {
+      display: grid;
+      gap: 10px;
+      max-width: 500px;
+      margin-top: 24px;
+    }
+
+    .point {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-height: 48px;
+      padding: 10px 12px;
+      border: 1px solid rgba(239, 237, 234, .09);
+      border-radius: 8px;
+      background: rgba(239, 237, 234, .035);
+      color: var(--cream);
+      font-size: 14px;
+      font-weight: 850;
+      line-height: 1.25;
+    }
+
+    .point::before {
+      width: 26px;
+      height: 2px;
+      background: var(--gold);
+      content: "";
+      flex: 0 0 auto;
+    }
+
+    .form-card {
+      width: 100%;
+      padding: 28px;
+      border: 1px solid rgba(53, 193, 46, .3);
+      border-radius: 8px;
+      background:
+        linear-gradient(180deg, rgba(53, 193, 46, .15), transparent 38%),
+        linear-gradient(145deg, rgba(232, 222, 196, .08), transparent 46%),
+        rgba(23, 24, 18, .9);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(16px);
+    }
+
+    .form-card h2 {
+      margin: 0 0 18px;
+      color: #fff;
+      font-size: 24px;
+      font-weight: 950;
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .field {
+      display: grid;
+      gap: 7px;
+      margin-bottom: 12px;
+    }
+
+    label {
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    input {
+      width: 100%;
+      min-height: 50px;
+      padding: 13px 14px;
+      border: 1px solid rgba(239, 237, 234, .12);
+      border-radius: 5px;
+      outline: none;
+      color: var(--cream);
+      background: rgba(8, 7, 6, .58);
+      font-size: 15px;
+      font-weight: 750;
+      transition: border-color .18s ease, box-shadow .18s ease;
+    }
+
+    input::placeholder {
+      color: rgba(239, 237, 234, .38);
+    }
+
+    input:focus {
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(53, 193, 46, .16);
+    }
+
+    .iti {
+      width: 100%;
+    }
+
+    .iti input {
+      width: 100%;
+    }
+
+    .iti--separate-dial-code .iti__selected-flag {
+      border-radius: 5px 0 0 5px;
+      background: rgba(239, 237, 234, .08);
+    }
+
+    ._has_error {
+      border-color: #f37c7b !important;
+      box-shadow: 0 0 0 3px rgba(243, 124, 123, .18) !important;
+    }
+
+    ._error-inner {
+      margin: 8px 0 0;
+      color: #ffd9d9;
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    .submit {
+      width: 100%;
+      min-height: 54px;
+      margin-top: 8px;
+      border: 0;
+      border-radius: 7px;
+      color: #071006;
+      background: var(--green);
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 950;
+      line-height: 1.1;
+      text-transform: uppercase;
+      box-shadow: 0 18px 44px rgba(53, 193, 46, .18);
+      transition: filter .18s ease, transform .18s ease;
+    }
+
+    .submit:hover {
+      filter: brightness(1.08);
+      transform: translateY(-1px);
+    }
+
+    .submit:disabled {
+      cursor: not-allowed;
+      opacity: .55;
+      transform: none;
+    }
+
+    .microcopy {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 900;
+      line-height: 1.3;
+      text-align: center;
+    }
+
+    ._form-thank-you {
+      display: none;
+      padding: 18px;
+      border: 1px solid rgba(53, 193, 46, .22);
+      border-radius: 8px;
+      color: var(--cream);
+      background: rgba(239, 237, 234, .045);
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 1.4;
+      text-align: center;
+    }
+
+    .bio {
+      min-height: 100svh;
+      display: grid;
+      align-items: center;
+      padding: 82px 0;
+      border-top: 1px solid rgba(239, 237, 234, .08);
+      background:
+        radial-gradient(circle at 82% 16%, rgba(53, 193, 46, .12), transparent 28%),
+        var(--shell);
+    }
+
+    .bio-panel {
+      display: grid;
+      grid-template-columns: minmax(370px, .86fr) minmax(0, 1.14fr);
+      overflow: hidden;
+      border: 1px solid rgba(239, 237, 234, .1);
+      border-radius: 8px;
+      background: rgba(23, 24, 18, .72);
+      box-shadow: 0 30px 90px rgba(0, 0, 0, .34);
+    }
+
+    .bio-photo {
+      min-height: 620px;
+      background:
+        linear-gradient(180deg, rgba(8, 7, 6, .04), rgba(8, 7, 6, .36)),
+        url("assets/max-satiro-atual.jfif") center 22% / cover no-repeat;
+    }
+
+    .bio-copy {
+      display: grid;
+      align-content: center;
+      padding: 62px;
+      border-left: 1px solid rgba(239, 237, 234, .08);
+    }
+
+    .bio-copy h2 {
+      margin: 0 0 16px;
+      color: #fff;
+      font-family: var(--serif);
+      font-size: 70px;
+      font-weight: 500;
+      line-height: .92;
+      letter-spacing: 0;
+    }
+
+    .role {
+      margin: 0 0 24px;
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 900;
+      line-height: 1.3;
+    }
+
+    .bio-text {
+      max-width: 640px;
+      margin-bottom: 0;
+      color: var(--soft);
+      font-size: 19px;
+      font-weight: 520;
+      line-height: 1.5;
+    }
+
+    .bio-text + .bio-text {
+      margin-top: 14px;
+    }
+
+    .bio-text strong {
+      color: #fff;
+      font-weight: 900;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin-top: 32px;
+      border: 1px solid rgba(239, 237, 234, .12);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .stat {
+      min-height: 116px;
+      padding: 20px;
+      background: rgba(8, 7, 6, .22);
+    }
+
+    .stat + .stat {
+      border-left: 1px solid rgba(239, 237, 234, .1);
+    }
+
+    .stat strong {
+      display: block;
+      color: var(--gold);
+      font-family: var(--mono);
+      font-size: 14px;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .stat span {
+      display: block;
+      margin-top: 20px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 900;
+      line-height: 1.24;
+    }
+
+    @media (max-width: 1120px) {
+      .hero-grid {
+        grid-template-columns: minmax(0, 1fr) minmax(320px, 390px);
+        gap: 34px;
+      }
+
+      h1 {
+        max-width: 660px;
+        font-size: 64px;
+      }
+    }
+
+    @media (max-width: 880px) {
+      .hero-grid,
+      .bio-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .form-card {
+        max-width: 450px;
+      }
+
+      .bio-photo {
+        min-height: 440px;
+      }
+
+      .bio-copy {
+        border-top: 1px solid rgba(239, 237, 234, .08);
+        border-left: 0;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .wrap {
+        width: min(100% - 32px, 1200px);
+      }
+
+      .event {
+        min-height: 34px;
+        padding: 8px 12px;
+        font-size: 10px;
+      }
+
+      .hero-grid {
+        gap: 26px;
+        min-height: auto;
+        padding: 42px 0 56px;
+      }
+
+      h1 {
+        max-width: 360px;
+        font-size: 39px;
+        line-height: .97;
+      }
+
+      .lead {
+        max-width: 35ch;
+        margin-top: 14px;
+        font-size: 15px;
+        line-height: 1.38;
+      }
+
+      .points {
+        display: none;
+      }
+
+      .form-card {
+        padding: 18px;
+      }
+
+      .form-card h2 {
+        font-size: 22px;
+      }
+
+      input,
+      .submit {
+        min-height: 46px;
+      }
+
+      .bio {
+        min-height: auto;
+        padding: 62px 0;
+      }
+
+      .bio-photo {
+        min-height: 390px;
+      }
+
+      .bio-copy {
+        padding: 28px 20px 22px;
+      }
+
+      .bio-copy h2 {
+        font-size: 44px;
+      }
+
+      .bio-text {
+        font-size: 16px;
+      }
+
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .stat + .stat {
+        border-top: 1px solid rgba(239, 237, 234, .1);
+        border-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero" aria-label="Aula gratuita ao vivo">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="event">Segunda-feira, ao vivo as 19h</div>
+          <p class="kicker">Aula gratuita ao vivo</p>
+          <h1><span>Aula ao vivo:</span> como crescer sem depender do seu tempo</h1>
+          <p class="lead">Para donos de empresas de serviço que já vendem, mas ainda sentem que o negócio só anda quando o dono empurra.</p>
+
+          <div class="points" aria-label="Informações da aula">
+            <div class="point">Ao vivo na próxima segunda-feira.</div>
+            <div class="point">Acesso e lembretes no WhatsApp.</div>
+            <div class="point">Com Max Satiro, ex-CMO e ex-sócio da V4.</div>
+          </div>
+        </div>
+
+        <form class="form-card _form _form_5 _inline-form _dark" action="https://sociestrategico.activehosted.com/proc.php" method="post" id="form_5" novalidate data-styles-version="5" aria-label="Formulário de inscrição">
+          <input type="hidden" name="u" value="5">
+          <input type="hidden" name="f" value="5">
+          <input type="hidden" name="s">
+          <input type="hidden" name="c" value="0">
+          <input type="hidden" name="m" value="0">
+          <input type="hidden" name="act" value="sub">
+          <input type="hidden" name="v" value="2">
+          <input type="hidden" name="or" value="b0b2eae9-b58c-4170-bd0d-1c83611c9ed4">
+          <input type="hidden" name="utm_source">
+          <input type="hidden" name="utm_medium">
+          <input type="hidden" name="utm_campaign">
+          <input type="hidden" name="utm_id">
+          <input type="hidden" name="utm_term">
+          <input type="hidden" name="utm_content">
+          <input type="hidden" name="utm_keyword">
+          <input type="hidden" name="fbp">
+          <input type="hidden" name="fbc">
+          <input type="hidden" name="page_location">
+          <input type="hidden" name="user_agent">
+          <input type="hidden" name="event_id">
+
+          <div class="_form-content">
+            <h2>Inscreva-se gratuitamente</h2>
+            <div class="field">
+              <label for="fullname">Nome</label>
+              <input id="fullname" name="fullname" type="text" autocomplete="name" placeholder="Seu nome completo" required>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="seu@email.com" required>
+            </div>
+            <div class="field">
+              <label for="phone">WhatsApp</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(00) 00000-0000" required>
+            </div>
+            <button id="_form_5_submit" class="submit _submit" type="submit">Participar da aula ao vivo</button>
+            <p class="microcopy">Aula gratuita, ao vivo. Sem replay.</p>
+          </div>
+
+          <div class="_form-thank-you" tabindex="-1"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="bio" aria-label="Quem é Max Satiro">
+      <div class="wrap">
+        <div class="bio-panel">
+          <figure class="bio-photo" aria-label="Max Satiro"></figure>
+
+          <div class="bio-copy">
+            <p class="kicker">Quem vai conduzir a aula</p>
+            <h2>Max Satiro</h2>
+            <p class="role">ex-CMO e ex-sócio da V4</p>
+            <p class="bio-text">Max começou como SDR, liderou marketing e comercial e participou do ciclo em que a V4 saiu de cerca de <strong>R$300 mil para R$40 milhões por mês.</strong></p>
+            <p class="bio-text">Hoje, à frente da Sócio Estratégico, ajuda donos de empresas de serviço a entenderem onde o crescimento pesa: receita, estratégia, gestão ou operação.</p>
+
+            <div class="stats" aria-label="Credenciais de Max Satiro">
+              <div class="stat">
+                <strong>SDR</strong>
+                <span>começou na linha de frente</span>
+              </div>
+              <div class="stat">
+                <strong>V4</strong>
+                <span>liderou marketing e comercial</span>
+              </div>
+              <div class="stat">
+                <strong>R$40M/mês</strong>
+                <span>participou do ciclo de escala</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  <script>
+    const CONFIG = {
+      META_PIXEL_ID: '',
+      FORM_PROVIDER: 'activecampaign',
+      FORM_ID: '5',
+      FORM_ACTION_URL: 'https://sociestrategico.activehosted.com/proc.php',
+      CAPI_ENDPOINT: '',
+      REDIRECT_MODE: 'form_provider',
+      THANK_YOU_URL: null
+    };
+
+    window.cfields = [];
+
+    function loadScript(url, callback, isSubmit) {
+      const head = document.querySelector('head');
+      const script = document.createElement('script');
+      script.charset = 'utf-8';
+      script.src = url;
+      script.onload = function () {
+        if (callback) callback();
+      };
+      script.onerror = function () {
+        if (isSubmit) showFormError('Desculpe, seu envio falhou. Tente novamente.');
+      };
+      head.appendChild(script);
+    }
+
+    window._load_script = loadScript;
+
+    function installMetaPixel() {
+      if (!CONFIG.META_PIXEL_ID) return;
+
+      !function(f,b,e,v,n,t,s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = true;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = true;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', CONFIG.META_PIXEL_ID);
+      fbq('track', 'PageView');
+    }
+
+    function getUrlParam(name) {
+      if (name.toLowerCase() !== 'email') {
+        const params = new URLSearchParams(window.location.search);
+        return params.get(name) || false;
+      }
+
+      const qString = window.location.search;
+      if (!qString) return false;
+
+      const parameters = qString.substr(1).split('&');
+      for (let i = 0; i < parameters.length; i++) {
+        const parameter = parameters[i].split('=');
+        if (parameter[0].toLowerCase() === 'email') {
+          return parameter[1] === undefined ? true : decodeURIComponent(parameter[1]);
+        }
+      }
+
+      return false;
+    }
+
+    function getCookie(name) {
+      const match = document.cookie.match(new RegExp('(^|; )' + name + '=([^;]+)'));
+      return match ? match[2] : localStorage.getItem(name);
+    }
+
+    function getFacebookCookies() {
+      const fbpVal = getCookie('_fbp') || '';
+      let fbcVal = getCookie('_fbc') || '';
+
+      if (!fbcVal && window.location.search.includes('fbclid=')) {
+        const match = window.location.search.match(/fbclid=([^&]+)/);
+        if (match) fbcVal = 'fb.1.' + new Date().getTime() + '.' + match[1];
+      }
+
+      return { fbpVal, fbcVal };
+    }
+
+    function setFieldValue(form, name, value) {
+      const input = form.querySelector(`input[name="${name}"]`);
+      if (input) input.value = value || '';
+    }
+
+    function splitName(fullName) {
+      const parts = fullName.trim().split(/\s+/).filter(Boolean);
+      const firstName = parts.shift() || '';
+      return {
+        firstName,
+        lastName: parts.join(' ')
+      };
+    }
+
+    let iti;
+
+    function initializePhoneInput(inputPhone) {
+      const style = document.createElement('link');
+      style.rel = 'stylesheet';
+      style.href = 'https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css';
+      document.head.appendChild(style);
+
+      loadScript('https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js', function () {
+        iti = intlTelInput(inputPhone, {
+          loadUtils: () => import('https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/utils.js'),
+          separateDialCode: true,
+          autoPlaceholder: 'aggressive',
+          initialCountry: 'br',
+          preferredCountries: ['br', 'pt', 'us'],
+          formatAsYouType: false,
+          formatOnDisplay: false,
+          geoIpLookup: (success) => {
+            fetch('https://sociestrategico.activehosted.com/api/public/geo.php')
+              .then((res) => res.json())
+              .then((data) => success(data.country_code || 'BR'))
+              .catch(() => success('BR'));
+          }
+        });
+      });
+
+      if (typeof $ !== 'undefined' && $.fn.mask) {
+        const maskBehavior = function (val) {
+          return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 90000-0000';
+        };
+
+        $('#phone').mask(maskBehavior, {
+          onKeyPress: function (val, e, field, opts) {
+            field.mask(maskBehavior.apply({}, arguments), opts);
+          }
+        });
+      }
+    }
+
+    function showFormError(message) {
+      const form = document.getElementById('form_5');
+      const button = form.querySelector('button[type="submit"]');
+      const oldError = form.querySelector('._form_error');
+      if (oldError) oldError.remove();
+
+      const error = document.createElement('div');
+      error.className = '_error-inner _form_error _no_arrow';
+      error.textContent = message;
+      button.insertAdjacentElement('beforebegin', error);
+      button.disabled = false;
+      button.classList.remove('processing');
+    }
+
+    function validateForm(form) {
+      const requiredFields = form.querySelectorAll('[required]');
+      let isValid = true;
+
+      form.querySelectorAll('._has_error').forEach((field) => field.classList.remove('_has_error'));
+      form.querySelectorAll('._form_error').forEach((error) => error.remove());
+
+      requiredFields.forEach((field) => {
+        if (!field.value.trim()) {
+          field.classList.add('_has_error');
+          isValid = false;
+        }
+      });
+
+      const email = form.querySelector('input[name="email"]');
+      if (email && email.value && !email.value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)@[a-z0-9-]+(\.[a-z0-9-]+)(\.[a-z]{2,})$/i)) {
+        email.classList.add('_has_error');
+        isValid = false;
+      }
+
+      const phone = form.querySelector('#phone');
+      if (phone && phone.value.trim() && typeof iti !== 'undefined' && !iti.isValidNumber()) {
+        phone.classList.add('_has_error');
+        isValid = false;
+      }
+
+      if (!isValid) showFormError('Preencha os campos corretamente.');
+      return isValid;
+    }
+
+    function fillTrackingFields(form, eventId) {
+      const trackingFields = [
+        'utm_source',
+        'utm_medium',
+        'utm_campaign',
+        'utm_id',
+        'utm_term',
+        'utm_content',
+        'utm_keyword'
+      ];
+
+      trackingFields.forEach((field) => setFieldValue(form, field, getUrlParam(field) || ''));
+
+      const { fbpVal, fbcVal } = getFacebookCookies();
+      setFieldValue(form, 'fbp', fbpVal);
+      setFieldValue(form, 'fbc', fbcVal);
+      setFieldValue(form, 'page_location', window.location.href);
+      setFieldValue(form, 'user_agent', navigator.userAgent);
+      setFieldValue(form, 'event_id', eventId);
+
+      return { fbpVal, fbcVal };
+    }
+
+    function fireLeadEvents(form, eventId, fbpVal, fbcVal) {
+      const fullNameVal = form.querySelector('input[name="fullname"]')?.value || '';
+      const emailVal = form.querySelector('input[name="email"]')?.value || '';
+      const phoneVal = form.querySelector('input[name="phone"]')?.value || '';
+      const { firstName, lastName } = splitName(fullNameVal);
+
+      if (typeof fbq === 'function') {
+        fbq('track', 'Lead', {
+          fn: firstName,
+          ln: lastName,
+          em: emailVal,
+          ph: phoneVal,
+          fbp: fbpVal,
+          fbc: fbcVal
+        }, {
+          eventID: eventId
+        });
+      }
+
+      if (CONFIG.CAPI_ENDPOINT) {
+        fetch(CONFIG.CAPI_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            event_id: eventId,
+            event_name: 'Lead',
+            first_name: firstName,
+            last_name: lastName,
+            email: emailVal,
+            phone: phoneVal,
+            fbp: fbpVal,
+            fbc: fbcVal,
+            utm_source: getUrlParam('utm_source') || '',
+            utm_medium: getUrlParam('utm_medium') || '',
+            utm_campaign: getUrlParam('utm_campaign') || '',
+            utm_id: getUrlParam('utm_id') || '',
+            utm_term: getUrlParam('utm_term') || '',
+            utm_content: getUrlParam('utm_content') || '',
+            utm_keyword: getUrlParam('utm_keyword') || '',
+            page_location: window.location.href,
+            user_agent: navigator.userAgent
+          })
+        }).catch((err) => console.error('Erro silencioso na CAPI:', err));
+      }
+    }
+
+    function serializeForm(form) {
+      const formData = new FormData(form);
+      const params = new URLSearchParams();
+
+      formData.forEach((value, key) => {
+        params.append(key, value);
+      });
+
+      return params.toString().replace(/%0A/g, '\\n');
+    }
+
+    window._show_thank_you = function(id, message, trackcmpUrl) {
+      const form = document.getElementById(`form_${id}`) || document.getElementById('form_5');
+      const content = form.querySelector('._form-content');
+      const thankYou = form.querySelector('._form-thank-you');
+
+      if (content) content.style.display = 'none';
+      thankYou.innerHTML = message || 'Cadastro recebido. Enviaremos o acesso e os lembretes no contato informado.';
+      thankYou.style.display = 'block';
+      thankYou.focus();
+
+      if (trackcmpUrl) loadScript(trackcmpUrl);
+
+      if (CONFIG.REDIRECT_MODE === 'code' && CONFIG.THANK_YOU_URL) {
+        setTimeout(function () {
+          window.location.href = CONFIG.THANK_YOU_URL;
+        }, 800);
+      }
+    };
+
+    window._show_error = function(id, message) {
+      showFormError(message || 'Desculpe, seu envio falhou. Tente novamente.');
+    };
+
+    document.addEventListener('DOMContentLoaded', function () {
+      installMetaPixel();
+
+      const form = document.getElementById('form_5');
+      const phone = form.querySelector('#phone');
+      const submitButton = form.querySelector('#_form_5_submit');
+
+      if (phone) initializePhoneInput(phone);
+
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        if (!validateForm(form)) return false;
+
+        if (phone && typeof iti !== 'undefined') {
+          phone.value = iti.getNumber();
+        }
+
+        submitButton.disabled = true;
+        submitButton.classList.add('processing');
+
+        const eventId = 'lead_' + new Date().getTime() + '_' + Math.random().toString(36).substr(2, 9);
+        const { fbpVal, fbcVal } = fillTrackingFields(form, eventId);
+        fireLeadEvents(form, eventId, fbpVal, fbcVal);
+
+        const serialized = serializeForm(form);
+        loadScript(CONFIG.FORM_ACTION_URL + '?' + serialized + '&jsonp=true', null, true);
+        return false;
+      });
+    });
+  </script>
+</body>
+</html>

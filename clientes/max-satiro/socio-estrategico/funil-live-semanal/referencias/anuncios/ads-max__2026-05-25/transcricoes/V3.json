@@ -1,0 +1,995 @@
+{
+  "text": " O que é a Mesa com Sócio? A Mesa com Sócio é uma live ao vivo que eu entro toda quinta-feira, meio-dia, pra compartilhar com quem me acompanha aqui as decisões das empresas que mais crescem no Brasil. O que eu vi dentro das empresas que mais cresceram no Brasil nos últimos 10 anos. Às vezes eu trago algum convidado, às vezes eu faço esse conteúdo sozinho e depois separo de 30 a 40 minutos pra ouvir quem tá na live e eventualmente fazer uma mentoria ao vivo pra poder contribuir com essas pessoas. Aproveitando que eu tô falando sobre isso, se tu quer aparecer lá, clica aqui embaixo, nesse link, se cadastra e a gente se encontra na quinta-feira, meio-dia. Bora!",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 9.56,
+      "text": " O que é a Mesa com Sócio? A Mesa com Sócio é uma live ao vivo que eu entro toda quinta-feira, meio-dia, pra compartilhar com quem me acompanha aqui as decisões das empresas que mais crescem no Brasil.",
+      "tokens": [
+        50365,
+        422,
+        631,
+        1136,
+        257,
+        376,
+        13708,
+        395,
+        19961,
+        8529,
+        30,
+        316,
+        376,
+        13708,
+        395,
+        19961,
+        8529,
+        1136,
+        2772,
+        1621,
+        8130,
+        30689,
+        631,
+        2228,
+        948,
+        340,
+        11687,
+        421,
+        16071,
+        12,
+        2106,
+        4271,
+        11,
+        17706,
+        12,
+        67,
+        654,
+        11,
+        3206,
+        40204,
+        5854,
+        395,
+        13026,
+        385,
+        34839,
+        1641,
+        3871,
+        382,
+        18206,
+        6036,
+        1482,
+        26433,
+        631,
+        2420,
+        20964,
+        26422,
+        572,
+        14861,
+        13,
+        50845
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09668489124463953,
+      "compression_ratio": 1.7636363636363637,
+      "no_speech_prob": 8.877846374710785e-12,
+      "words": [
+        {
+          "word": " O",
+          "start": 0.0,
+          "end": 0.16,
+          "probability": 0.87939453125
+        },
+        {
+          "word": " que",
+          "start": 0.16,
+          "end": 0.36,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " é",
+          "start": 0.36,
+          "end": 0.54,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " a",
+          "start": 0.54,
+          "end": 0.7,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " Mesa",
+          "start": 0.7,
+          "end": 0.92,
+          "probability": 0.810546875
+        },
+        {
+          "word": " com",
+          "start": 0.92,
+          "end": 1.1,
+          "probability": 0.273681640625
+        },
+        {
+          "word": " Sócio?",
+          "start": 1.1,
+          "end": 1.52,
+          "probability": 0.8203125
+        },
+        {
+          "word": " A",
+          "start": 1.56,
+          "end": 1.64,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " Mesa",
+          "start": 1.64,
+          "end": 1.78,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " com",
+          "start": 1.78,
+          "end": 1.94,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " Sócio",
+          "start": 1.94,
+          "end": 2.26,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " é",
+          "start": 2.26,
+          "end": 2.38,
+          "probability": 1.0
+        },
+        {
+          "word": " uma",
+          "start": 2.38,
+          "end": 2.52,
+          "probability": 1.0
+        },
+        {
+          "word": " live",
+          "start": 2.52,
+          "end": 2.98,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " ao",
+          "start": 2.98,
+          "end": 3.34,
+          "probability": 0.998046875
+        },
+        {
+          "word": " vivo",
+          "start": 3.34,
+          "end": 3.74,
+          "probability": 1.0
+        },
+        {
+          "word": " que",
+          "start": 3.74,
+          "end": 3.98,
+          "probability": 0.9140625
+        },
+        {
+          "word": " eu",
+          "start": 3.98,
+          "end": 4.08,
+          "probability": 1.0
+        },
+        {
+          "word": " entro",
+          "start": 4.08,
+          "end": 4.3,
+          "probability": 1.0
+        },
+        {
+          "word": " toda",
+          "start": 4.3,
+          "end": 4.66,
+          "probability": 1.0
+        },
+        {
+          "word": " quinta",
+          "start": 4.66,
+          "end": 5.0,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "-feira,",
+          "start": 5.0,
+          "end": 5.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " meio",
+          "start": 5.28,
+          "end": 5.4,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "-dia,",
+          "start": 5.4,
+          "end": 5.68,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " pra",
+          "start": 5.96,
+          "end": 6.04,
+          "probability": 0.8193359375
+        },
+        {
+          "word": " compartilhar",
+          "start": 6.04,
+          "end": 6.56,
+          "probability": 1.0
+        },
+        {
+          "word": " com",
+          "start": 6.56,
+          "end": 6.72,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " quem",
+          "start": 6.72,
+          "end": 6.84,
+          "probability": 1.0
+        },
+        {
+          "word": " me",
+          "start": 6.84,
+          "end": 6.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " acompanha",
+          "start": 6.96,
+          "end": 7.3,
+          "probability": 1.0
+        },
+        {
+          "word": " aqui",
+          "start": 7.3,
+          "end": 7.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " as",
+          "start": 7.44,
+          "end": 7.64,
+          "probability": 0.990234375
+        },
+        {
+          "word": " decisões",
+          "start": 7.64,
+          "end": 8.12,
+          "probability": 1.0
+        },
+        {
+          "word": " das",
+          "start": 8.12,
+          "end": 8.28,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " empresas",
+          "start": 8.28,
+          "end": 8.6,
+          "probability": 1.0
+        },
+        {
+          "word": " que",
+          "start": 8.6,
+          "end": 8.78,
+          "probability": 1.0
+        },
+        {
+          "word": " mais",
+          "start": 8.78,
+          "end": 8.96,
+          "probability": 1.0
+        },
+        {
+          "word": " crescem",
+          "start": 8.96,
+          "end": 9.3,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " no",
+          "start": 9.3,
+          "end": 9.38,
+          "probability": 1.0
+        },
+        {
+          "word": " Brasil.",
+          "start": 9.38,
+          "end": 9.56,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 9.64,
+      "end": 20.64,
+      "text": " O que eu vi dentro das empresas que mais cresceram no Brasil nos últimos 10 anos. Às vezes eu trago algum convidado, às vezes eu faço esse conteúdo sozinho e depois separo de 30 a 40 minutos pra ouvir quem tá na live e eventualmente fazer uma mentoria ao vivo pra poder contribuir com essas pessoas.",
+      "tokens": [
+        50845,
+        422,
+        631,
+        2228,
+        1932,
+        10856,
+        1482,
+        26433,
+        631,
+        2420,
+        20964,
+        1776,
+        335,
+        572,
+        14861,
+        3269,
+        33013,
+        1266,
+        13592,
+        13,
+        19018,
+        82,
+        12925,
+        2228,
+        944,
+        1571,
+        15468,
+        3754,
+        327,
+        1573,
+        11,
+        23763,
+        12925,
+        2228,
+        38091,
+        6755,
+        44144,
+        370,
+        31282,
+        308,
+        13880,
+        3128,
+        78,
+        368,
+        2217,
+        257,
+        3356,
+        19421,
+        3206,
+        21157,
+        347,
+        13026,
+        7737,
+        1667,
+        1621,
+        308,
+        33160,
+        4082,
+        6736,
+        2772,
+        3074,
+        8172,
+        8130,
+        30689,
+        3206,
+        8152,
+        4226,
+        34498,
+        395,
+        19277,
+        10021,
+        13,
+        51403
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09668489124463953,
+      "compression_ratio": 1.7636363636363637,
+      "no_speech_prob": 8.877846374710785e-12,
+      "words": [
+        {
+          "word": " O",
+          "start": 9.64,
+          "end": 9.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " que",
+          "start": 9.72,
+          "end": 9.78,
+          "probability": 1.0
+        },
+        {
+          "word": " eu",
+          "start": 9.78,
+          "end": 9.9,
+          "probability": 1.0
+        },
+        {
+          "word": " vi",
+          "start": 9.9,
+          "end": 10.0,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " dentro",
+          "start": 10.0,
+          "end": 10.22,
+          "probability": 1.0
+        },
+        {
+          "word": " das",
+          "start": 10.22,
+          "end": 10.4,
+          "probability": 1.0
+        },
+        {
+          "word": " empresas",
+          "start": 10.4,
+          "end": 10.62,
+          "probability": 1.0
+        },
+        {
+          "word": " que",
+          "start": 10.62,
+          "end": 10.74,
+          "probability": 1.0
+        },
+        {
+          "word": " mais",
+          "start": 10.74,
+          "end": 10.88,
+          "probability": 1.0
+        },
+        {
+          "word": " cresceram",
+          "start": 10.88,
+          "end": 11.3,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " no",
+          "start": 11.3,
+          "end": 11.36,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " Brasil",
+          "start": 11.36,
+          "end": 11.56,
+          "probability": 1.0
+        },
+        {
+          "word": " nos",
+          "start": 11.56,
+          "end": 11.7,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " últimos",
+          "start": 11.7,
+          "end": 11.9,
+          "probability": 1.0
+        },
+        {
+          "word": " 10",
+          "start": 11.9,
+          "end": 12.14,
+          "probability": 0.802734375
+        },
+        {
+          "word": " anos.",
+          "start": 12.14,
+          "end": 12.42,
+          "probability": 1.0
+        },
+        {
+          "word": " Às",
+          "start": 12.48,
+          "end": 12.58,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " vezes",
+          "start": 12.58,
+          "end": 12.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " eu",
+          "start": 12.62,
+          "end": 12.7,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " trago",
+          "start": 12.7,
+          "end": 12.88,
+          "probability": 1.0
+        },
+        {
+          "word": " algum",
+          "start": 12.88,
+          "end": 13.08,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " convidado,",
+          "start": 13.08,
+          "end": 13.58,
+          "probability": 1.0
+        },
+        {
+          "word": " às",
+          "start": 13.66,
+          "end": 13.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " vezes",
+          "start": 13.76,
+          "end": 13.82,
+          "probability": 1.0
+        },
+        {
+          "word": " eu",
+          "start": 13.82,
+          "end": 13.9,
+          "probability": 1.0
+        },
+        {
+          "word": " faço",
+          "start": 13.9,
+          "end": 14.1,
+          "probability": 1.0
+        },
+        {
+          "word": " esse",
+          "start": 14.1,
+          "end": 14.28,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " conteúdo",
+          "start": 14.28,
+          "end": 14.54,
+          "probability": 1.0
+        },
+        {
+          "word": " sozinho",
+          "start": 14.54,
+          "end": 14.96,
+          "probability": 1.0
+        },
+        {
+          "word": " e",
+          "start": 14.96,
+          "end": 15.1,
+          "probability": 0.81494140625
+        },
+        {
+          "word": " depois",
+          "start": 15.1,
+          "end": 15.36,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " separo",
+          "start": 15.36,
+          "end": 15.82,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " de",
+          "start": 15.82,
+          "end": 15.94,
+          "probability": 1.0
+        },
+        {
+          "word": " 30",
+          "start": 15.94,
+          "end": 16.14,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 16.14,
+          "end": 16.24,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " 40",
+          "start": 16.24,
+          "end": 16.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " minutos",
+          "start": 16.44,
+          "end": 16.78,
+          "probability": 1.0
+        },
+        {
+          "word": " pra",
+          "start": 16.78,
+          "end": 17.02,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " ouvir",
+          "start": 17.02,
+          "end": 17.38,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " quem",
+          "start": 17.38,
+          "end": 17.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " tá",
+          "start": 17.5,
+          "end": 17.6,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " na",
+          "start": 17.6,
+          "end": 17.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " live",
+          "start": 17.72,
+          "end": 17.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " e",
+          "start": 17.96,
+          "end": 18.1,
+          "probability": 1.0
+        },
+        {
+          "word": " eventualmente",
+          "start": 18.1,
+          "end": 18.48,
+          "probability": 0.9248046875
+        },
+        {
+          "word": " fazer",
+          "start": 18.48,
+          "end": 18.6,
+          "probability": 0.998046875
+        },
+        {
+          "word": " uma",
+          "start": 18.6,
+          "end": 18.7,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " mentoria",
+          "start": 18.7,
+          "end": 19.0,
+          "probability": 0.994140625
+        },
+        {
+          "word": " ao",
+          "start": 19.0,
+          "end": 19.16,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " vivo",
+          "start": 19.16,
+          "end": 19.3,
+          "probability": 1.0
+        },
+        {
+          "word": " pra",
+          "start": 19.3,
+          "end": 19.48,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " poder",
+          "start": 19.48,
+          "end": 19.66,
+          "probability": 1.0
+        },
+        {
+          "word": " contribuir",
+          "start": 19.66,
+          "end": 20.06,
+          "probability": 1.0
+        },
+        {
+          "word": " com",
+          "start": 20.06,
+          "end": 20.16,
+          "probability": 1.0
+        },
+        {
+          "word": " essas",
+          "start": 20.16,
+          "end": 20.26,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " pessoas.",
+          "start": 20.26,
+          "end": 20.64,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 20.86,
+      "end": 26.52,
+      "text": " Aproveitando que eu tô falando sobre isso, se tu quer aparecer lá, clica aqui embaixo, nesse link, se cadastra e a gente se encontra na quinta-feira, meio-dia. Bora!",
+      "tokens": [
+        51403,
+        316,
+        46955,
+        270,
+        1806,
+        631,
+        2228,
+        20683,
+        21236,
+        5473,
+        4616,
+        11,
+        369,
+        2604,
+        7083,
+        43336,
+        7453,
+        11,
+        596,
+        2262,
+        3871,
+        36612,
+        11,
+        18270,
+        2113,
+        11,
+        369,
+        12209,
+        525,
+        424,
+        308,
+        257,
+        3788,
+        369,
+        43621,
+        1667,
+        421,
+        16071,
+        12,
+        2106,
+        4271,
+        11,
+        17706,
+        12,
+        67,
+        654,
+        13,
+        49967,
+        0,
+        51700
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09668489124463953,
+      "compression_ratio": 1.7636363636363637,
+      "no_speech_prob": 8.877846374710785e-12,
+      "words": [
+        {
+          "word": " Aproveitando",
+          "start": 20.86,
+          "end": 21.18,
+          "probability": 1.0
+        },
+        {
+          "word": " que",
+          "start": 21.18,
+          "end": 21.26,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " eu",
+          "start": 21.26,
+          "end": 21.32,
+          "probability": 1.0
+        },
+        {
+          "word": " tô",
+          "start": 21.32,
+          "end": 21.34,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " falando",
+          "start": 21.34,
+          "end": 21.48,
+          "probability": 1.0
+        },
+        {
+          "word": " sobre",
+          "start": 21.48,
+          "end": 21.66,
+          "probability": 1.0
+        },
+        {
+          "word": " isso,",
+          "start": 21.66,
+          "end": 21.8,
+          "probability": 1.0
+        },
+        {
+          "word": " se",
+          "start": 21.9,
+          "end": 22.0,
+          "probability": 1.0
+        },
+        {
+          "word": " tu",
+          "start": 22.0,
+          "end": 22.08,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " quer",
+          "start": 22.08,
+          "end": 22.18,
+          "probability": 1.0
+        },
+        {
+          "word": " aparecer",
+          "start": 22.18,
+          "end": 22.46,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " lá,",
+          "start": 22.46,
+          "end": 22.6,
+          "probability": 1.0
+        },
+        {
+          "word": " clica",
+          "start": 22.7,
+          "end": 22.86,
+          "probability": 0.9921875
+        },
+        {
+          "word": " aqui",
+          "start": 22.86,
+          "end": 23.02,
+          "probability": 1.0
+        },
+        {
+          "word": " embaixo,",
+          "start": 23.02,
+          "end": 23.42,
+          "probability": 1.0
+        },
+        {
+          "word": " nesse",
+          "start": 23.7,
+          "end": 23.7,
+          "probability": 0.912109375
+        },
+        {
+          "word": " link,",
+          "start": 23.7,
+          "end": 23.96,
+          "probability": 1.0
+        },
+        {
+          "word": " se",
+          "start": 24.06,
+          "end": 24.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " cadastra",
+          "start": 24.1,
+          "end": 24.5,
+          "probability": 0.93798828125
+        },
+        {
+          "word": " e",
+          "start": 24.5,
+          "end": 24.54,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " a",
+          "start": 24.54,
+          "end": 24.62,
+          "probability": 1.0
+        },
+        {
+          "word": " gente",
+          "start": 24.62,
+          "end": 24.68,
+          "probability": 1.0
+        },
+        {
+          "word": " se",
+          "start": 24.68,
+          "end": 24.8,
+          "probability": 1.0
+        },
+        {
+          "word": " encontra",
+          "start": 24.8,
+          "end": 25.02,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " na",
+          "start": 25.02,
+          "end": 25.12,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " quinta",
+          "start": 25.12,
+          "end": 25.32,
+          "probability": 1.0
+        },
+        {
+          "word": "-feira,",
+          "start": 25.32,
+          "end": 25.5,
+          "probability": 1.0
+        },
+        {
+          "word": " meio",
+          "start": 25.6,
+          "end": 25.68,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "-dia.",
+          "start": 25.68,
+          "end": 25.98,
+          "probability": 1.0
+        },
+        {
+          "word": " Bora!",
+          "start": 26.2,
+          "end": 26.52,
+          "probability": 0.998046875
+        }
+      ]
+    }
+  ],
+  "language": "pt",
+  "_source": "clientes/max-satiro/socio-estrategico/funil-live-semanal/referencias/anuncios/ads-max__2026-05-25/V3.mp4",
+  "_model": "mlx-community/whisper-large-v3-turbo",
+  "_generated_at": "2026-05-30T22:43:57.236632+00:00",
+  "_duration_seconds": 26.709,
+  "_skipped": false
+}
